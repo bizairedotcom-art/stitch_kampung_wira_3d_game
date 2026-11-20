@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="ms"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link rel="stylesheet" href="../shared/css/fonts-9d46a30423de1499.css"/><link rel="stylesheet" href="../shared/css/fonts-e6154908c44c742b.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/><script src="../shared/js/tailwindcdn.js"></script><script src="../shared/js/tailwind-config.js"></script>
+
+
+
+
+
+
+  <link rel="stylesheet" href="../shared/css/style-5deca57a5b4213e0.css"/><link rel="stylesheet" href="../shared/css/style-d08a966f1ccf70c9.css"/></head><body class="bg-surface text-on-surface select-none overflow-x-hidden font-body-md text-body-md"><header class="fixed top-0 w-full z-50 pt-safe"><div class="h-20 px-gutter-mobile flex items-center justify-between bg-surface/90 backdrop-blur-xl shadow-[0_4px_16px_rgba(69,26,3,0.18)]"><div class="flex items-center gap-space-xs"><img alt="Logo Kampung Wira" class="h-8 w-auto object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.25)]" src="../shared/images/remote-f7cd671ccf357eb1.jpg"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider leading-none">Tahun 1</span><span class="font-headline-sm text-headline-sm text-on-surface leading-tight drop-shadow-sm">Sahabat</span></div></div><div class="flex items-center gap-space-xs"><div class="flex items-center bg-surface-container-high rounded-full px-space-xs py-1 shadow-[inset_0_2px_4px_rgba(53,16,0,0.15)]"><span class="flex items-center justify-center w-6 h-6 rounded-full bg-secondary-container text-on-secondary shadow-md"><span class="material-symbols-outlined text-[16px]">star</span></span><span class="font-headline-sm text-headline-sm text-on-surface px-1.5">120</span></div><div class="flex items-center bg-surface-container-high rounded-full px-space-xs py-1 shadow-[inset_0_2px_4px_rgba(53,16,0,0.15)]"><span class="flex items-center justify-center w-6 h-6 rounded-full bg-primary-container text-on-primary-container shadow-md"><span class="material-symbols-outlined text-[16px]">diamond</span></span><span class="font-headline-sm text-headline-sm text-on-surface px-1.5">45</span></div><button aria-label="Suara Permainan" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-secondary shadow-[0_3px_0_#855300] active:translate-y-0.5 active:shadow-none transition-all" type="button"><span class="material-symbols-outlined text-headline-sm">volume_up</span></button><div class="relative flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_2px_6px_rgba(69,26,3,0.3)]" src="../shared/images/remote-646325e079ef8c04.jpg"/><span class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-primary flex items-center justify-center text-[9px] font-label-sm text-on-primary">1</span></div></div></div></header><main class="flex flex-col relative w-full pt-20 pb-28 min-h-screen bg-surface"><div class="flex flex-col w-full">
+<!-- Top Location & Ambient Audio Sub-Bar -->
+<section class="px-gutter-mobile pt-2 pb-1">
+<div class="bg-surface-container rounded-xl p-space-sm shadow-[0_4px_12px_rgba(53,16,0,0.08)] flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5 bg-surface-container-high px-2.5 py-1 rounded-full shadow-[inset_0_1px_3px_rgba(53,16,0,0.12)]">
+<span class="text-[14px]">🏛️</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wide">Bahagian Dalam • Galeri Batik Pelangi</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-primary bg-primary px-2 py-0.5 rounded-full shadow-sm">Tahap 1</span>
+</div>
+<div class="flex items-center justify-between bg-surface-container-lowest px-2.5 py-1.5 rounded-lg shadow-sm">
+<div class="flex items-center gap-2">
+<button aria-label="Muzik Suasana" class="w-7 h-7 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-[0_2px_0_#855300] active:translate-y-0.5 active:shadow-none transition-all" id="ambient-btn">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">volume_up</span>
+</button>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary leading-tight">Muzik Gamelan Lembut &amp; Desiran Angin</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight">Suasana Santai Bilik Pameran</span>
+</div>
+</div>
+<!-- Animated Equalizer Waves -->
+<div aria-hidden="true" class="flex items-end gap-0.5 h-4 px-1">
+<span class="w-1 bg-secondary rounded-full animate-pulse h-3"></span>
+<span class="w-1 bg-primary rounded-full animate-pulse h-4" style="animation-delay: 150ms;"></span>
+<span class="w-1 bg-secondary-container rounded-full animate-pulse h-2.5" style="animation-delay: 300ms;"></span>
+<span class="w-1 bg-tertiary rounded-full animate-pulse h-3.5" style="animation-delay: 75ms;"></span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3D Interior Diorama Feature Section -->
+<section class="px-gutter-mobile py-2">
+<div class="relative bg-surface-container-high rounded-xl p-space-xs shadow-[0_6px_20px_rgba(53,16,0,0.15)] overflow-hidden">
+<!-- Decorative Songket Border Accent (Top) -->
+<div class="h-2 w-full bg-gradient-to-r from-secondary via-secondary-container to-secondary rounded-t-lg opacity-90 mb-1 flex items-center justify-center">
+<div class="h-1 w-full bg-surface-container-lowest/30"></div>
+</div>
+<!-- Main Diorama Illustration Card -->
+<div class="relative w-full h-56 rounded-lg overflow-hidden bg-surface-container-low shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Charming 3D diorama cutaway mobile game art of a traditional Malay wooden batik gallery workshop. Sunlight streams through carved timber windows overlooking a sparkling tropical river. Intricate hand-painted batik cloths with floral hibiscus motifs hang to dry from bamboo poles. In the center, a polished chengal wood workbench displays glowing miniature brass wax pots and handcrafted canting pens. A small cute bird mentor wearing an artist beret inspects an easel. Saturated warm amber, rich emerald green, and terracotta tones, cozy toybox lighting." src="../shared/images/remote-071da4687061a4f7.jpg"/>
+<!-- Scrim gradient for hotspot pop & readability -->
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 via-transparent to-transparent pointer-events-none"></div>
+<!-- Diorama Title Badge -->
+<div class="absolute top-2 left-2 bg-surface/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[16px]">visibility</span>
+<span class="font-label-sm text-label-sm text-on-surface">Sudut Bengkel &amp; Rak Canting</span>
+</div>
+<!-- Hotspot 1: Tap Canting Tembaga -->
+<button aria-label="Lihat Canting Tembaga" class="absolute top-1/2 left-8 -translate-y-1/2 bg-surface-container-lowest/95 backdrop-blur-md text-on-surface rounded-full px-2 py-1 shadow-[0_3px_8px_rgba(0,0,0,0.3)] flex items-center gap-1 active:scale-95 transition-all" id="hotspot-canting" type="button">
+<span class="w-4 h-4 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center text-[10px] font-bold">1</span>
+<span class="font-label-sm text-label-sm text-[11px] text-secondary">Canting Tembaga</span>
+<span class="material-symbols-outlined text-[14px] text-secondary-container">arrow_back_ios_new</span>
+</button>
+<!-- Hotspot 2: Tap Meja Lilin -->
+<button aria-label="Lihat Kuali Lilin Panas" class="absolute top-1/3 right-6 bg-surface-container-lowest/95 backdrop-blur-md text-on-surface rounded-full px-2 py-1 shadow-[0_3px_8px_rgba(0,0,0,0.3)] flex items-center gap-1 active:scale-95 transition-all" id="hotspot-lilin" type="button">
+<span class="w-4 h-4 rounded-full bg-error text-on-error flex items-center justify-center text-[10px] font-bold">2</span>
+<span class="font-label-sm text-label-sm text-[11px] text-on-surface">Kuali Lilin Lebah</span>
+<span class="material-symbols-outlined text-[14px] text-error">local_fire_department</span>
+</button>
+<!-- Hotspot 3: Tap Kain Bunga Raya -->
+<button aria-label="Lihat Kain Bunga Raya" class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-surface-container-lowest/95 backdrop-blur-md text-on-surface rounded-full px-3 py-1 shadow-[0_3px_8px_rgba(0,0,0,0.3)] flex items-center gap-1 active:scale-95 transition-all" id="hotspot-kain" type="button">
+<span class="w-4 h-4 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center text-[10px] font-bold">3</span>
+<span class="font-label-sm text-label-sm text-[11px] text-primary">Kain Bunga Raya</span>
+<span class="material-symbols-outlined text-[14px] text-primary">palette</span>
+</button>
+</div>
+<!-- Live Interactive Toast Feedback Container -->
+<div class="mt-2 bg-surface-container-lowest p-2 rounded-lg text-center hidden" id="hotspot-feedback">
+<span class="font-label-sm text-label-sm text-primary" id="feedback-text">Alatan dipilih!</span>
+</div>
+</div>
+</section>
+<!-- Mentor Guide Card (Cikgu Merbok) -->
+<section class="px-gutter-mobile py-2">
+<div class="bg-surface-container rounded-xl p-space-sm shadow-[0_4px_14px_rgba(53,16,0,0.1)] flex items-start gap-space-sm">
+<div class="relative flex-shrink-0">
+<div class="w-16 h-16 rounded-xl bg-surface-container-high overflow-hidden shadow-inner flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Adorable stylized 3D character portrait of Cikgu Merbok, a friendly Malaysian spotted dove wearing a tiny maroon artist beret and blue batik craft apron. He holds a miniature bamboo paint brush and winks enthusiastically at young learners with cheerful bright eyes, warm studio lighting." src="../shared/images/remote-42919442f9dd9282.jpg"/>
+</div>
+<span class="absolute -top-1 -right-1 bg-primary text-on-primary rounded-full p-0.5 shadow-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">school</span>
+</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-secondary">Cikgu Merbok</span>
+<span class="font-label-sm text-label-sm text-on-tertiary-container bg-tertiary-container px-2 py-0.5 rounded-full">Guru Kraf</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface mt-1 leading-snug">
+          “Selamat datang ke bilik pameran kita, Wira Cilik! Sentuh canting tembaga di rak untuk mula melukis corak Bunga Raya sulung kamu hari ini!”
+        </p>
+<button class="mt-2 self-start flex items-center gap-1.5 bg-surface-container-high px-2.5 py-1 rounded-full text-secondary shadow-[0_2px_0_#855300] active:translate-y-0.5 active:shadow-none transition-all" id="audio-cikgu" type="button">
+<span class="material-symbols-outlined text-[16px]">volume_up</span>
+<span class="font-label-sm text-label-sm">Dengar Arahan Suara</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Rak Alatan Canting Cilik (Tactile Tool Rack & Inventory) -->
+<section class="px-gutter-mobile py-2">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary">draw</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Rak Alatan Canting</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high px-2.5 py-0.5 rounded-full">3 Alatan Sedia</span>
+</div>
+<!-- 3 Tactile Toybox Tool Cards Grid -->
+<div class="flex flex-col gap-2.5">
+<!-- Tool 1: Canting Tembaga Cilik -->
+<div class="bg-surface-container rounded-xl p-space-sm shadow-[0_4px_12px_rgba(53,16,0,0.08)] flex items-center gap-3 active:scale-[0.99] transition-transform">
+<div class="w-14 h-14 rounded-lg bg-surface-container-lowest flex items-center justify-center flex-shrink-0 shadow-inner overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="3D isometric game icon of a traditional Malaysian brass canting pen with a smoothly carved bamboo handle. Golden metallic gleam with a drop of warm wax ready at the fine brass nozzle tip. Cheerful toybox style on warm neutral background." src="../shared/images/remote-08bf31e599c7655c.jpg"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-label-md text-label-md text-on-surface truncate">Canting Tembaga Cilik</h3>
+<span class="font-label-sm text-label-sm text-on-primary bg-primary px-2 py-0.5 rounded-full">Tahap 1</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[13px] leading-tight mt-0.5">Muncung halus untuk lakaran motif awal wira.</span>
+<div class="flex items-center gap-2 mt-1.5">
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Sedia Dipakai ✨
+            </span>
+</div>
+</div>
+</div>
+<!-- Tool 2: Kuali Lilin Lebah & Damar Panas -->
+<div class="bg-surface-container rounded-xl p-space-sm shadow-[0_4px_12px_rgba(53,16,0,0.08)] flex items-center gap-3 active:scale-[0.99] transition-transform">
+<div class="w-14 h-14 rounded-lg bg-surface-container-lowest flex items-center justify-center flex-shrink-0 shadow-inner overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="3D isometric game asset of a mini tabletop brass wax melting stove with natural honey beeswax and tree resin damar. Gentle golden steam rising, warm safe ember glow, cozy children game aesthetic." src="../shared/images/remote-4a175926bc1d7ac2.jpg"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-label-md text-label-md text-on-surface truncate">Kuali Lilin Lebah &amp; Damar</h3>
+<span class="font-label-sm text-label-sm text-on-secondary-container bg-secondary-container px-2 py-0.5 rounded-full">Hangat</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[13px] leading-tight mt-0.5">Campuran lilin lebah asli &amp; damar pokok rhu.</span>
+<div class="flex items-center gap-2 mt-1.5">
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">thermostat</span> Suhu Selamat (Mesra Murid)
+            </span>
+</div>
+</div>
+</div>
+<!-- Tool 3: Pewarna Asli Tropika -->
+<div class="bg-surface-container rounded-xl p-space-sm shadow-[0_4px_12px_rgba(53,16,0,0.08)] flex items-center gap-3 active:scale-[0.99] transition-transform">
+<div class="w-14 h-14 rounded-lg bg-surface-container-lowest flex items-center justify-center flex-shrink-0 shadow-inner overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="3D stylized game asset showing three clay miniature bowls filled with vibrant natural dyes: indigo leaf deep blue, turmeric bright golden yellow, and mangosteen dye rich red. Glossy fluid surfaces, toybox diorama craft style." src="../shared/images/remote-30477acb1c207194.jpg"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-label-md text-label-md text-on-surface truncate">Pewarna Asli Tropika</h3>
+<span class="font-label-sm text-label-sm text-on-tertiary bg-tertiary px-2 py-0.5 rounded-full">3 Warna</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[13px] leading-tight mt-0.5">Biru Nila, Kuning Kunyit &amp; Merah Kesumba.</span>
+<div class="flex items-center gap-2 mt-1.5">
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">eco</span> 100% Organik &amp; Wangi
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Bilik Pameran Karya Cilik (Exhibition Wall & Easels) -->
+<section class="px-gutter-mobile py-2">
+<div class="flex items-center justify-between mb-1">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary">gallery_thumbnail</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Dinding Pameran Cilik</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Koleksi Karya Wira Cilik Tahun 1</span>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed px-2 py-0.5 rounded-full">1 / 6 Karya</span>
+</div>
+</div>
+<!-- Income Passive Badge -->
+<div class="flex items-center justify-between bg-surface-container-high px-3 py-1.5 rounded-lg mb-2 shadow-inner">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary text-[16px]">monetization_on</span> Ganjaran Pelawat Galeri:
+      </span>
+<span class="font-label-md text-label-md text-secondary">+15 Syiling / jam</span>
+</div>
+<!-- Exhibition Easels Scrollable Tray -->
+<div class="flex gap-3 overflow-x-auto pb-2 pt-1 no-scrollbar -mx-gutter-mobile px-gutter-mobile">
+<!-- Frame 1: Karya Pembukaan (Unlocked & Displayed) -->
+<div class="w-48 flex-shrink-0 bg-surface-container rounded-xl p-space-xs shadow-[0_4px_12px_rgba(53,16,0,0.12)] flex flex-col">
+<div class="relative w-full h-32 rounded-lg bg-surface-container-lowest overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Child-friendly stylized Malaysian batik cloth artwork with vibrant red Hibiscus Bunga Raya in full bloom, soft yellow swirls, and green leaves on cream fabric with gentle wax crackle effect. Bright 3D wooden easel frame in bright gallery setting." src="../shared/images/remote-b2a35cd45ff19f1f.jpg"/>
+<span class="absolute top-1.5 left-1.5 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2 py-0.5 rounded-full shadow-sm text-[10px]">
+            Karya Sulung
+          </span>
+<div class="absolute bottom-1 right-1 bg-surface/90 rounded-full px-1.5 py-0.5 flex items-center gap-0.5 shadow">
+<span class="text-secondary text-[11px]">⭐⭐⭐</span>
+</div>
+</div>
+<div class="mt-2 flex flex-col px-1">
+<h4 class="font-label-md text-label-md text-on-surface truncate">Bunga Raya Gemilang</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Pelukis: Wira Adam</span>
+<div class="mt-1 flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-primary">Gred Cemerlang</span>
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+</div>
+</div>
+</div>
+<!-- Frame 2: Corak Kelarai & Ombak Kenanga (Locked - Misi Canting 1) -->
+<div class="w-48 flex-shrink-0 bg-surface-container-high/80 rounded-xl p-space-xs shadow-[0_4px_10px_rgba(53,16,0,0.06)] flex flex-col opacity-90">
+<div class="relative w-full h-32 rounded-lg bg-surface-container flex flex-col items-center justify-center p-3 text-center overflow-hidden">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center mb-1 text-on-surface-variant shadow-inner">
+<span class="material-symbols-outlined text-[20px]">lock</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Terkunci</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight mt-1">Siapkan Misi Canting 1 untuk buka</span>
+</div>
+<div class="mt-2 flex flex-col px-1">
+<h4 class="font-label-md text-label-md text-on-surface-variant truncate">Ombak Kenanga</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Motif Aliran Sungai</span>
+<div class="mt-1 flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[14px]">lock_open</span>
+<span class="font-label-sm text-label-sm text-[11px]">Ganjaran: 50 ⭐</span>
+</div>
+</div>
+</div>
+<!-- Frame 3: Batik Pelangi Sang Kancil (Locked - Tahap 2) -->
+<div class="w-48 flex-shrink-0 bg-surface-container-high/80 rounded-xl p-space-xs shadow-[0_4px_10px_rgba(53,16,0,0.06)] flex flex-col opacity-90">
+<div class="relative w-full h-32 rounded-lg bg-surface-container flex flex-col items-center justify-center p-3 text-center overflow-hidden">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center mb-1 text-on-surface-variant shadow-inner">
+<span class="material-symbols-outlined text-[20px]">military_tech</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tahap 2</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px] leading-tight mt-1">Buka Galeri Tingkat Atas</span>
+</div>
+<div class="mt-2 flex flex-col px-1">
+<h4 class="font-label-md text-label-md text-on-surface-variant truncate">Pelangi Sang Kancil</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Koleksi Legenda</span>
+<div class="mt-1 flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-[14px]">diamond</span>
+<span class="font-label-sm text-label-sm text-[11px]">Ganjaran: 10 💎</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Big Interactive 3D Call-to-Action Buttons -->
+<section class="px-gutter-mobile pt-2 pb-4 flex flex-col gap-3">
+<!-- Primary Big 3D CTA Button -->
+<button class="w-full h-16 rounded-2xl bg-gradient-to-b from-primary to-primary-container text-on-primary shadow-[0_6px_0_#005236,0_10px_20px_rgba(0,105,71,0.35)] active:translate-y-1 active:shadow-[0_2px_0_#005236] transition-all flex items-center justify-center gap-2.5 px-4 relative overflow-hidden group" id="btn-start-canting" type="button">
+<!-- Gloss highlight on top edge -->
+<span class="absolute top-0 inset-x-0 h-1/2 bg-gradient-to-b from-white/25 to-transparent pointer-events-none rounded-t-2xl"></span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">palette</span>
+<span class="font-headline-md text-headline-md tracking-wide drop-shadow-sm">MULA MENCHANTING!</span>
+<span class="text-xl">✨</span>
+</button>
+<!-- Secondary Utility Button: Kutip Syiling Pelawat -->
+<button class="w-full h-14 rounded-xl bg-surface-container-high text-on-surface shadow-[0_4px_0_#ffdbcc] active:translate-y-1 active:shadow-none transition-all flex items-center justify-between px-4" id="btn-collect-coins" type="button">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">groups</span>
+<span class="font-label-md text-label-md text-secondary">Tinjau Pelawat &amp; Galeri</span>
+</div>
+<div class="flex items-center gap-1.5 bg-secondary-container text-on-secondary px-3 py-1 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[16px]">monetization_on</span>
+<span class="font-label-sm text-label-sm">+15 Kutip</span>
+</div>
+</button>
+<!-- Navigation Back Link -->
+<a class="w-full py-2.5 rounded-lg flex items-center justify-center gap-2 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span class="font-label-sm text-label-sm">Keluar ke Laman Luar Galeri &amp; Tebing Sungai</span>
+</a>
+</section>
+</div>
+<script src="../shared/js/pages/bilik_pameran_rak_canting_galeri_batik_pelangi.js"></script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/95 backdrop-blur-xl shadow-[0_-4px_20px_rgba(69,26,3,0.15)]" data-active-classes="text-primary bg-primary-fixed-dim/30 shadow-[0_3px_0_#006947]"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="kampung" href="#"><span class="material-symbols-outlined text-headline-md">cottage</span><span class="font-label-sm text-label-sm mt-0.5">Kampung</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="wira" href="#"><span class="material-symbols-outlined text-headline-md">shield_person</span><span class="font-label-sm text-label-sm mt-0.5">Wira</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="misi" href="#"><span class="material-symbols-outlined text-headline-md">menu_book</span><span class="font-label-sm text-label-sm mt-0.5">Misi</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="sahabat" href="#"><span class="material-symbols-outlined text-headline-md">pets</span><span class="font-label-sm text-label-sm mt-0.5">Sahabat</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="ibu-bapa" href="#"><span class="material-symbols-outlined text-headline-md">family_restroom</span><span class="font-label-sm text-label-sm mt-0.5">Ibu Bapa</span></a></div></nav></body></html>

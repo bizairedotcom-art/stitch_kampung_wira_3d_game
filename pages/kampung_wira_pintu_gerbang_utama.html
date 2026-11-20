@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="ms"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_blank" name="shell-type"/><link rel="stylesheet" href="../shared/css/fonts-9d46a30423de1499.css"/><link rel="stylesheet" href="../shared/css/fonts-e6154908c44c742b.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/><script src="../shared/js/tailwindcdn.js"></script><script src="../shared/js/tailwind-config.js"></script><link rel="stylesheet" href="../shared/css/style-5deca57a5b4213e0.css"/></head><body class="bg-surface text-on-surface select-none overflow-x-hidden font-body-md text-body-md pt-safe pb-safe"><main class="flex flex-col relative w-full min-h-screen bg-surface"><div class="flex flex-col w-full relative pb-10">
+<!-- TOP HUD: Resos & Profil Murid (Pill-shaped carved wooden status bars) -->
+<header class="w-full px-4 pt-3 pb-2 flex items-center justify-between z-30">
+<!-- Player Profile & Rimau Badge -->
+<div class="flex items-center gap-2 bg-surface-container-high rounded-full p-1.5 shadow-md">
+<div class="relative w-12 h-12 rounded-full overflow-hidden bg-secondary-container shadow-inner flex items-center justify-center">
+<img alt="Rimau Si Harimau Belang Comel" class="w-full h-full object-cover" src="../shared/images/remote-646325e079ef8c04.jpg"/>
+<span class="absolute bottom-0 right-0 bg-primary text-on-primary font-headline-sm text-label-sm px-1 rounded-full shadow">Lvl 1</span>
+</div>
+<div class="pr-3 pl-1 flex flex-col">
+<span class="font-headline-sm text-label-md text-on-surface leading-tight">Adik Adam</span>
+<span class="font-body-sm text-label-sm text-secondary leading-none">Tahun 1 Cerdik</span>
+</div>
+</div>
+<!-- Counters: Bintang Gemilang & Syiling Emas -->
+<div class="flex items-center gap-2">
+<!-- Bintang Gemilang Counter -->
+<div class="flex items-center bg-surface-container-high rounded-full px-3 py-1 shadow-md gap-1.5">
+<span class="material-symbols-outlined text-secondary-container text-xl" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-headline-sm text-label-md text-on-surface">128</span>
+</div>
+<!-- Syiling Emas Counter -->
+<div class="flex items-center bg-surface-container-high rounded-full px-3 py-1 shadow-md gap-1.5">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-xl" style="font-variation-settings: 'FILL' 1;">monetization_on</span>
+<span class="font-headline-sm text-label-md text-on-surface">450</span>
+</div>
+<!-- Zon Ibu Bapa & Tetapan -->
+<button aria-label="Zon Ibu Bapa" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface shadow active:translate-y-0.5 transition-transform" type="button">
+<span class="material-symbols-outlined text-xl">family_restroom</span>
+</button>
+</div>
+</header>
+<!-- KAWASAN KAMPUNG ISOMETRIK 3D (The Visual Centerpiece & Diorama Preview) -->
+<div class="relative w-full px-3 mt-1">
+<div class="relative w-full rounded-3xl overflow-hidden bg-gradient-to-b from-tertiary-fixed via-surface-container-low to-surface-container shadow-xl">
+<!-- Diorama Main Art Background -->
+<div class="w-full h-80 bg-cover bg-center relative flex flex-col justify-between p-4" data-alt="Breathtaking 3D isometric vibrant Malaysian village educational game landscape for primary school children. Cascading crystal river with wooden sampan boat, tiered emerald green rice paddy terraces, traditional high-stilt Malay wooden house with carved ukiran timber motifs and curved bumbung limas. Warm golden morning tropical sunlight, magical glowing particles, playful whimsical 3D game diorama style." style="background-image: url('../shared/images/remote-131d8c905b1a4aea.jpg')">
+<!-- Ambient Weather & Day Tag -->
+<div class="flex items-center justify-between w-full z-10">
+<div class="bg-surface-container-lowest/90 backdrop-blur-sm rounded-full px-3 py-1 flex items-center gap-1.5 shadow">
+<span class="material-symbols-outlined text-secondary-container text-sm" style="font-variation-settings: 'FILL' 1;">wb_sunny</span>
+<span class="font-headline-sm text-label-sm text-on-surface">Kampung Harmoni KSSR</span>
+</div>
+<!-- Audio Read-Aloud Voice Button -->
+<button class="bg-primary text-on-primary rounded-full px-2.5 py-1 flex items-center gap-1 shadow-md active:scale-95 transition-transform" id="audioToggleBtn" type="button">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+<span class="font-headline-sm text-label-sm">Dengar Suara</span>
+</button>
+</div>
+<!-- Floating Explorer Character & Rimau Greeting Speech Bubble -->
+<div class="z-10 flex items-end gap-2.5">
+<div class="relative w-16 h-16 rounded-2xl overflow-hidden shadow-lg bg-surface-container-lowest p-0.5">
+<img alt="Rimau Si Maskot KSSR" class="w-full h-full object-cover rounded-xl" src="../shared/images/remote-646325e079ef8c04.jpg"/>
+</div>
+<div class="bg-surface-container-lowest/95 backdrop-blur-sm rounded-2xl p-2.5 shadow-lg max-w-[210px] relative">
+<div class="font-headline-sm text-label-sm text-primary mb-0.5 flex items-center gap-1">
+<span>Rimau Sahabat</span>
+<span class="material-symbols-outlined text-xs text-secondary-container" style="font-variation-settings: 'FILL' 1;">arrow_back_ios_new</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+              “Jom Adam! Terokai Menara Nombor &amp; Perpustakaan Buku hari ini!”
+            </p>
+</div>
+</div>
+<!-- Subtly shaded bottom ground scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/50 via-transparent to-transparent pointer-events-none"></div>
+</div>
+</div>
+</div>
+<!-- MAIN GAME ACTIONS: 3D Candy & Extruded Wood Tactile CTA Buttons -->
+<div class="px-4 mt-4 flex flex-col gap-2.5 w-full">
+<!-- Giant Tactile 3D Green-Golden Pill Button: MULA BERMAIN -->
+<button class="w-full relative group active:translate-y-1 transition-transform" id="btnMulaBermain" type="button">
+<div class="w-full bg-on-primary-fixed-variant rounded-2xl pb-1.5 shadow-xl">
+<div class="w-full bg-gradient-to-r from-primary via-primary-container to-primary rounded-2xl py-3.5 px-6 flex items-center justify-center gap-3 shadow-md relative overflow-hidden">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-3xl animate-bounce" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary tracking-wide drop-shadow">MULA BERMAIN</span>
+<span class="material-symbols-outlined text-secondary-container text-2xl" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+</div>
+</button>
+<!-- Secondary Tactile Wood Button: SAMBUNG PENGEMBARAAN -->
+<button class="w-full relative active:translate-y-1 transition-transform" type="button">
+<div class="w-full bg-secondary rounded-2xl pb-1 shadow-md">
+<div class="w-full bg-secondary-container rounded-2xl py-2.5 px-4 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-on-secondary-container text-xl" style="font-variation-settings: 'FILL' 1;">explore</span>
+<span class="font-headline-sm text-label-lg text-on-secondary-container">Sambung Misi Semalam (Bab 3)</span>
+</div>
+</div>
+</button>
+</div>
+<!-- MODUL PEMBELAJARAN INTERAKTIF: Bangunan Bersejarah & Makmal KSSR -->
+<section class="mt-6 px-4">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-xl" style="font-variation-settings: 'FILL' 1;">location_city</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Pilih Rumah Ilmu</h2>
+</div>
+<span class="font-headline-sm text-label-sm text-secondary bg-surface-container px-2.5 py-1 rounded-full">6 Lokasi</span>
+</div>
+<!-- Grid Rumah / Bangunan Pembelajaran (Touch Cards) -->
+<div class="grid grid-cols-2 gap-3">
+<!-- 1. Menara Nombor (Matematik) -->
+<div class="building-card flex flex-col bg-surface-container-low rounded-2xl p-2.5 shadow-sm active:scale-95 transition-transform cursor-pointer" role="button" tabindex="0">
+<div class="w-full h-24 rounded-xl overflow-hidden relative mb-2">
+<img class="w-full h-full object-cover" data-alt="Chunky 3D whimsical wooden mathematics stone tower with magical floating glowing cubes displaying numbers 1, 2, and 3. Malaysian jungle surroundings, lush vegetation, bright warm Pixar-style lighting." src="../shared/images/remote-9b25d19e5c0a8319.jpg"/>
+<span class="absolute top-1.5 left-1.5 bg-secondary-container text-on-secondary-container font-headline-sm text-label-sm px-2 py-0.5 rounded-full shadow">Matematik</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface">Menara Nombor</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Nombor Asas &amp; Tambah</span>
+</div>
+<!-- 2. Perpustakaan Ilmu (Bahasa Melayu) -->
+<div class="building-card flex flex-col bg-surface-container-low rounded-2xl p-2.5 shadow-sm active:scale-95 transition-transform cursor-pointer" role="button" tabindex="0">
+<div class="w-full h-24 rounded-xl overflow-hidden relative mb-2">
+<img class="w-full h-full object-cover" data-alt="Traditional Malay high stilt wooden library house with authentic carved ukiran gables, adorned with colorful glowing Wau Bulan kite shapes and floating glowing ABC scrolls, cheerful 3D cartoon style." src="../shared/images/remote-f9c54ba6b6063fb7.jpg"/>
+<span class="absolute top-1.5 left-1.5 bg-primary text-on-primary font-headline-sm text-label-sm px-2 py-0.5 rounded-full shadow">B. Melayu</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface">Pustaka Rimba</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Huruf Vokal &amp; Suku Kata</span>
+</div>
+<!-- 3. English Adventure Centre (Bahasa Inggeris) -->
+<div class="building-card flex flex-col bg-surface-container-low rounded-2xl p-2.5 shadow-sm active:scale-95 transition-transform cursor-pointer" role="button" tabindex="0">
+<div class="w-full h-24 rounded-xl overflow-hidden relative mb-2">
+<img class="w-full h-full object-cover" data-alt="Playful whimsical hot air balloon dock station with colorful canopy made of an open giant storybook, 3D animated style for children English learning in a Malaysian tropical nature background." src="../shared/images/remote-5d88e2f1b6e9f276.jpg"/>
+<span class="absolute top-1.5 left-1.5 bg-tertiary text-on-tertiary font-headline-sm text-label-sm px-2 py-0.5 rounded-full shadow">English</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface">Adventure Bay</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Phonics &amp; Simple Words</span>
+</div>
+<!-- 4. Makmal Penjelajah (Sains) -->
+<div class="building-card flex flex-col bg-surface-container-low rounded-2xl p-2.5 shadow-sm active:scale-95 transition-transform cursor-pointer" role="button" tabindex="0">
+<div class="w-full h-24 rounded-xl overflow-hidden relative mb-2">
+<img class="w-full h-full object-cover" data-alt="A magical treehouse nature laboratory surrounded by oversized friendly Nepenthes pitcher plants (periuk kera), magnifying glasses, and sun dials in a tropical rainforest setting, vibrant 3D stylized game asset." src="../shared/images/remote-abf2be0e2b04db5d.jpg"/>
+<span class="absolute top-1.5 left-1.5 bg-primary-container text-on-primary-container font-headline-sm text-label-sm px-2 py-0.5 rounded-full shadow">Sains</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface">Makmal Alam</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Deria &amp; Benda Hidup</span>
+</div>
+<!-- 5. Taman Harmoni (Pendidikan Islam / Moral) -->
+<div class="building-card flex flex-col bg-surface-container-low rounded-2xl p-2.5 shadow-sm active:scale-95 transition-transform cursor-pointer" role="button" tabindex="0">
+<div class="w-full h-24 rounded-xl overflow-hidden relative mb-2">
+<img class="w-full h-full object-cover" data-alt="Serene 3D Malaysian water garden pavilion with delicate Islamic geometric archways, blooming pink lotuses, pebble pathways and warm tranquil sunlight, inviting children game environment." src="../shared/images/remote-713843740e28357d.jpg"/>
+<span class="absolute top-1.5 left-1.5 bg-secondary text-on-secondary font-headline-sm text-label-sm px-2 py-0.5 rounded-full shadow">P. Islam / Moral</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface">Taman Harmoni</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Budi Pekerti &amp; Doa</span>
+</div>
+<!-- 6. Bengkel Seni (Pendidikan Seni Visual) -->
+<div class="building-card flex flex-col bg-surface-container-low rounded-2xl p-2.5 shadow-sm active:scale-95 transition-transform cursor-pointer" role="button" tabindex="0">
+<div class="w-full h-24 rounded-xl overflow-hidden relative mb-2">
+<img class="w-full h-full object-cover" data-alt="Charming open-air Malaysian batik workshop pavilion with colorful drying patterned fabric clothes, paint pots, clay pottery wheel, and wooden easel, playful warm 3D simulation art style." src="../shared/images/remote-bfa4c2dae8bd05c2.jpg"/>
+<span class="absolute top-1.5 left-1.5 bg-secondary-container text-on-secondary-container font-headline-sm text-label-sm px-2 py-0.5 rounded-full shadow">Seni Visual</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface">Bengkel Batik</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Warna, Garisan &amp; Corak</span>
+</div>
+</div>
+</section>
+<!-- PENCAPAIAN HARIAN SANG KANCIL (Reward Ribbon / Progress Meter) -->
+<section class="mt-6 px-4">
+<div class="w-full bg-surface-container-high rounded-3xl p-4 shadow-md flex flex-col gap-2 relative overflow-hidden">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">emoji_events</span>
+</div>
+<span class="font-headline-sm text-label-md text-on-surface">Ganjaran Mingguan</span>
+</div>
+<span class="font-headline-sm text-label-sm text-primary">3 / 5 Misi Selesai</span>
+</div>
+<!-- Tactile Bamboo Progress Bar -->
+<div class="w-full bg-surface-container-highest rounded-full h-4 p-0.5 shadow-inner relative overflow-hidden">
+<div class="bg-gradient-to-r from-primary via-primary-container to-secondary-container h-full rounded-full w-3/5 shadow-sm transition-all duration-500"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Selesaikan 2 misi lagi untuk membuka kostum <strong class="text-secondary font-headline-sm text-label-sm">Pendekar Cilik</strong> untuk Rimau!
+      </p>
+</div>
+</section>
+<!-- QUICK ACTION DOCK (Tetapan, Koleksi Lencana, Bunyi) -->
+<nav aria-label="Menu Pantas" class="mt-6 px-4 flex items-center justify-around gap-2">
+<button class="flex-1 bg-surface-container-low rounded-2xl py-2 px-3 flex flex-col items-center shadow-sm active:translate-y-0.5 transition-transform" type="button">
+<span class="material-symbols-outlined text-primary text-2xl" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+<span class="font-headline-sm text-label-sm text-on-surface mt-1">Lencana</span>
+</button>
+<button class="flex-1 bg-surface-container-low rounded-2xl py-2 px-3 flex flex-col items-center shadow-sm active:translate-y-0.5 transition-transform" type="button">
+<span class="material-symbols-outlined text-secondary-container text-2xl" style="font-variation-settings: 'FILL' 1;">backpack</span>
+<span class="font-headline-sm text-label-sm text-on-surface mt-1">Beg Saya</span>
+</button>
+<button class="flex-1 bg-surface-container-low rounded-2xl py-2 px-3 flex flex-col items-center shadow-sm active:translate-y-0.5 transition-transform" type="button">
+<span class="material-symbols-outlined text-tertiary text-2xl">leaderboard</span>
+<span class="font-headline-sm text-label-sm text-on-surface mt-1">Papan Juara</span>
+</button>
+<button class="flex-1 bg-surface-container-low rounded-2xl py-2 px-3 flex flex-col items-center shadow-sm active:translate-y-0.5 transition-transform" type="button">
+<span class="material-symbols-outlined text-outline text-2xl">settings</span>
+<span class="font-headline-sm text-label-sm text-on-surface mt-1">Tetapan</span>
+</button>
+</nav>
+</div>
+<script src="../shared/js/pages/kampung_wira_pintu_gerbang_utama.js"></script></main></body></html>
