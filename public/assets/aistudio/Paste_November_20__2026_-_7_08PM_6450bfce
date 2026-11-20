@@ -1,0 +1,1194 @@
+==================================================
+46. ADVANCED AI CAPABILITIES — MANDATORY
+==================================================
+
+Enable the highest available thinking level and reasoning
+capabilities supported by the selected Gemini model.
+
+Required capabilities, where available:
+
+- High Thinking
+- Generate Music
+- Create Images
+- Edit Images
+- Generate High-Quality Images
+- Animate Images into Video
+- Generate Videos
+- Control Image Aspect Ratios
+- Multimodal Image Understanding
+- Advanced Code Generation
+
+Use appropriate available Google AI models and tools for
+each task.
+
+Do not assume that enabling a capability automatically
+produces the required assets.
+
+Actually generate, inspect, save, optimize and integrate
+the generated assets into the application.
+
+If a capability requires manual activation in Google AI
+Studio, identify the required setting.
+
+If a model or capability is unavailable, report it
+accurately and implement an appropriate fallback.
+
+Never simulate an unavailable AI capability.
+
+==================================================
+47. HIGH THINKING AND ENGINEERING QUALITY
+==================================================
+
+Use the highest available thinking setting for:
+
+- Software architecture
+- Three.js scene architecture
+- Educational game mechanics
+- Curriculum mapping
+- Mathematical validation
+- Performance optimization
+- Debugging
+- Asset generation planning
+- Responsive interface design
+- Animation choreography
+- Accessibility
+- Automated testing
+
+Before implementing complex functionality:
+
+1. Inspect the existing project.
+2. Identify existing dependencies.
+3. Determine the correct architectural approach.
+4. Evaluate performance implications.
+5. Implement the functionality.
+6. Test it.
+7. Fix identified defects.
+
+Do not expose internal reasoning.
+
+Provide concise engineering decisions, implementation
+results and verification evidence.
+
+==================================================
+48. REAL-TIME THREE.JS 3D SCENES
+==================================================
+
+Three.js must be a core component of Kampung Wira,
+not an optional decorative background.
+
+Use:
+
+- Three.js
+- React Three Fiber
+- Drei
+- WebGL
+- GSAP
+- AnimationMixer
+- Raycasting
+- InstancedMesh
+- Custom shaders where justified
+
+Create actual real-time interactive scenes for:
+
+01. Main Malaysian village.
+02. Village entrance.
+03. Character customization studio.
+04. Companion selection forest.
+05. Mathematics tower.
+06. Mathematics tower interiors.
+07. Science laboratory.
+08. Tropical nature exploration.
+09. Bahasa Melayu library.
+10. English Adventure Bay.
+11. Taman Harmoni.
+12. Bengkel Batik Pelangi.
+13. Music pavilion.
+14. Physical education arena.
+15. Additional language buildings.
+16. Village construction mode.
+17. Achievement gallery.
+18. Interactive educational simulations.
+
+Every 3D scene must have:
+
+- Scene-specific lighting
+- Appropriate camera controls
+- Interactive objects
+- Optimized materials
+- Loading states
+- Error handling
+- Responsive rendering
+- Resource cleanup
+- Accessibility fallback
+
+Do not use a static PNG as a replacement for
+an interactive Three.js scene.
+
+==================================================
+49. ADVANCED 3D MALAYSIAN WORLD
+==================================================
+
+Create an original isometric Malaysian game world
+with the environmental richness of international
+village-building games.
+
+Visual inspiration:
+
+- Clash of Clans
+- Hay Day
+- Animal Crossing
+- Super Mario Odyssey
+- Astro Bot
+
+Create original Malaysian assets.
+
+ENVIRONMENTAL FEATURES:
+
+- Traditional Rumah Melayu
+- Rumah panggung
+- Rumah panjang
+- Carved chengal wood architecture
+- Traditional wakaf
+- Rice fields
+- Tropical rainforest
+- Banana plantations
+- Coconut trees
+- Rambutan trees
+- Durian orchards
+- Rivers
+- Waterfalls
+- Wooden sampan boats
+- Bamboo bridges
+- Lotus ponds
+- Traditional village markets
+- Songket-inspired decorations
+- Wau bulan
+- Bunga raya gardens
+- Malaysian wildlife
+
+Use detailed terrain elevation and isometric composition.
+
+Avoid generic European medieval villages.
+
+The world must have an unmistakable Malaysian identity.
+
+==================================================
+50. ADVANCED RENDERING QUALITY
+==================================================
+
+Implement appropriate Three.js rendering effects:
+
+- Ambient occlusion
+- Soft contact shadows
+- Physically based materials
+- Baked lighting
+- Environment mapping
+- Warm cinematic lighting
+- Selective bloom
+- Atmospheric fog
+- Stylized water shaders
+- Water reflections where practical
+- Animated foliage
+- Volumetric-inspired light effects
+- Particle systems
+- Color grading
+- Subtle depth of field
+
+Use selective post-processing rather than applying
+expensive effects to every object.
+
+The scene must look premium without requiring
+high-end gaming hardware.
+
+Provide quality-dependent rendering configurations.
+
+==================================================
+51. REAL-TIME ENVIRONMENT ANIMATION
+==================================================
+
+Create a living Malaysian village.
+
+Animate:
+
+- Coconut trees swaying
+- Rice fields moving in the wind
+- Water flowing downstream
+- Waterfalls
+- Fish swimming
+- Lotus flowers gently moving
+- Butterflies flying
+- Hornbills flying
+- Sampan boats moving
+- Village lanterns flickering
+- Clouds passing overhead
+- Villagers walking
+- Children exploring
+- Fireflies appearing at night
+- Smoke drifting from rooftops
+- Magical crystals glowing
+
+Use procedural animation and skeletal animation
+where appropriate.
+
+Animations must remain synchronized with scene state.
+
+Do not rely exclusively on prerecorded videos.
+
+==================================================
+52. GENERATE HIGH-QUALITY ORIGINAL IMAGES
+==================================================
+
+Use the available image generation capabilities to
+produce original premium game artwork.
+
+Use the highest appropriate image quality supported
+by the available image model.
+
+Generate actual assets for:
+
+- Environment concept art
+- Character designs
+- Companion animals
+- Building designs
+- Educational illustrations
+- Item inventory icons
+- Achievement badges
+- Decorative objects
+- Textures
+- Loading screens
+- Storybook illustrations
+- Subject-specific backgrounds
+- Curriculum-specific educational objects
+
+Create new artwork only where existing Stitch assets
+are missing, insufficient or unsuitable.
+
+Preserve the existing Nusantara Toybox Adventure
+design system.
+
+All new artwork must be visually consistent with
+the original merged.zip assets.
+
+Do not generate unrelated stock artwork.
+
+==================================================
+53. IMAGE GENERATION ART DIRECTION
+==================================================
+
+Every generated image must follow:
+
+Premium stylized 3D game artwork.
+
+Tactile Toyetic Skeuomorphism.
+
+Malaysian Cultural Modernism.
+
+Visual properties:
+
+- Rounded sculpted forms
+- Detailed material textures
+- Handcrafted miniature appearance
+- Soft cinematic shadows
+- Warm tropical sunlight
+- Rich saturated colours
+- Polished wooden surfaces
+- Burnished brass
+- Golden decorative edges
+- Songket-inspired patterns
+- Expressive characters
+- Layered environmental depth
+
+Create an original international-quality game identity.
+
+Avoid:
+
+- Generic AI illustrations
+- Flat vector clipart
+- Photorealistic adult characters
+- Inconsistent character proportions
+- Random visual styles
+- Western medieval fantasy architecture
+- Unnecessary text embedded in images
+- Watermarks
+
+==================================================
+54. IMAGE ASPECT RATIO CONTROL
+==================================================
+
+Explicitly control the aspect ratio of every generated
+image using the supported generation settings.
+
+ASSET SPECIFICATIONS:
+
+Desktop cinematic environment:
+16:9, 1920 x 1080 or higher where supported.
+
+Portrait mobile environment:
+9:16, 1080 x 1920.
+
+Tablet environment:
+4:3, 1600 x 1200.
+
+Subject illustrations:
+4:3.
+
+Educational storybook illustrations:
+4:3 or 3:2.
+
+Character concept artwork:
+3:4.
+
+Full-body avatar reference:
+2:3.
+
+Inventory items:
+1:1.
+
+Achievement badges:
+1:1.
+
+Companion portraits:
+1:1.
+
+Wide cinematic banners:
+21:9 where supported.
+
+Never stretch an image to fit a different aspect ratio.
+
+Generate dedicated portrait and landscape compositions
+when responsive cropping would remove important details.
+
+Use appropriate object positioning and focal points.
+
+Record every generated asset's:
+
+- Width
+- Height
+- Aspect ratio
+- Intended usage
+- Source
+- File format
+
+==================================================
+55. AI IMAGE EDITING
+==================================================
+
+Use image editing capabilities to improve the existing
+Stitch assets rather than regenerating everything.
+
+Permitted asset operations:
+
+- Remove unwanted backgrounds
+- Remove embedded interface text
+- Isolate characters
+- Isolate buildings
+- Isolate decorative objects
+- Replace inappropriate visual elements
+- Extend image boundaries
+- Repair inconsistent artwork
+- Improve lighting
+- Improve texture quality
+- Generate consistent alternative compositions
+- Produce day and night variants
+- Generate building upgrade variants
+- Create transparent object assets where supported
+
+Use existing images as visual references.
+
+Preserve:
+
+- Character identity
+- Building identity
+- Art style
+- Color palette
+- Malaysian architectural details
+
+Do not alter approved Stitch artwork unnecessarily.
+
+Keep original source assets separately.
+
+==================================================
+56. CHARACTER CONSISTENCY SYSTEM
+==================================================
+
+Create a visual character bible before generating
+additional character artwork.
+
+For each character document:
+
+- Character name
+- Species
+- Personality
+- Body proportions
+- Facial features
+- Colour palette
+- Clothing
+- Accessories
+- Material style
+- Front view
+- Side view
+- Back view
+- Three-quarter view
+- Facial expressions
+
+Include:
+
+- Student avatar base characters
+- Rimau
+- Kancil
+- Enggang
+- Utan
+- Badak
+- Educational NPCs
+
+Use reference images consistently when generating
+new character artwork.
+
+Do not generate visually different versions of the
+same companion between learning activities.
+
+Generated character images are concept references.
+
+They must not be falsely presented as rigged
+three-dimensional models.
+
+==================================================
+57. 3D AVATAR ASSET PRODUCTION
+==================================================
+
+Implement a genuine modular 3D avatar system.
+
+Where supported assets exist, use:
+
+- Rigged GLB models
+- Skeletal animation
+- Modular clothing meshes
+- Morph targets
+- Material variations
+- Attachable accessories
+
+Where rigged models are unavailable:
+
+Create original articulated procedural 3D characters
+with Three.js geometry.
+
+Generate reference images for:
+
+- Hairstyles
+- Facial expressions
+- Traditional clothing
+- Adventure clothing
+- Hats
+- Songkok
+- Tengkolok
+- Hijab
+- Baju Melayu
+- Baju Kurung
+- Shoes
+- Backpacks
+
+Use these references to maintain consistent
+three-dimensional geometry and styling.
+
+Do not claim that image generation automatically
+creates usable rigged GLB assets.
+
+==================================================
+58. ANIMATE IMAGES INTO VIDEOS
+==================================================
+
+Use the available image-to-video generation capability
+to create original cinematic sequences for Kampung Wira.
+
+Where supported, use the available Veo models or
+equivalent video generation capabilities.
+
+Generate videos from approved reference images.
+
+REQUIRED CINEMATIC SEQUENCES:
+
+01. Village entrance introduction.
+02. First login welcome.
+03. Avatar creation reveal.
+04. Companion introduction.
+05. First house construction.
+06. Mathematics tower introduction.
+07. Science laboratory discovery.
+08. Library entrance.
+09. Adventure Bay introduction.
+10. Village expansion.
+11. Major achievement celebration.
+12. Chapter completion celebration.
+
+Each sequence must preserve the existing
+character and environmental identity.
+
+Do not generate unrelated stock videos.
+
+==================================================
+59. CINEMATIC VIDEO SPECIFICATIONS
+==================================================
+
+Use short cinematic sequences.
+
+Recommended duration:
+
+- Micro-transition: 2–4 seconds.
+- Subject introduction: 4–8 seconds.
+- Onboarding sequence: 6–12 seconds.
+- Major celebration: 4–8 seconds.
+
+Adjust duration to the capabilities of the
+available video generation model.
+
+CAMERA MOVEMENTS:
+
+- Isometric camera fly-through
+- Gentle dolly-in
+- Camera orbit
+- Village reveal
+- Portal transition
+- Aircraft-style aerial reveal
+- Character close-up
+- Building construction reveal
+
+Generate 16:9 and 9:16 variants where required.
+
+Do not stretch landscape video to portrait.
+
+Avoid long compulsory video sequences.
+
+Provide:
+
+- Skip button
+- Replay option
+- Muted playback option
+- Reduced-motion fallback
+- Static poster image
+
+Use generated videos for cinematic storytelling.
+
+Keep essential gameplay interactive through Three.js.
+
+==================================================
+60. EDUCATIONAL ANIMATION VIDEOS
+==================================================
+
+Generate short supplementary animated demonstrations
+where video can help explain curriculum concepts.
+
+MATHEMATICS:
+
+- Numbers appearing and grouping
+- Addition using tropical fruits
+- Subtraction using familiar objects
+- Fraction partitioning
+- Clock hands moving
+- Shape transformations
+
+SCIENCE:
+
+- Magnet attraction and repulsion
+- Water absorption
+- Plant anatomy
+- Five human senses
+- Animal body parts
+- Basic construction
+
+BAHASA MELAYU:
+
+- Animated syllables combining
+- Letter formation
+- Illustrated storytelling
+
+ENGLISH:
+
+- Animated vocabulary
+- Character conversations
+- Phonics demonstrations
+
+PENDIDIKAN SENI VISUAL:
+
+- Batik painting demonstrations
+- Drawing techniques
+- Craft construction
+
+PJPK:
+
+- Appropriate movement demonstrations
+- Handwashing sequences
+- Healthy lifestyle scenarios
+
+All educational videos must be inspected for
+factual and visual accuracy.
+
+Do not use generated videos as authoritative
+mathematical or scientific simulations.
+
+Use deterministic interactive simulations when
+precise behavior is essential.
+
+==================================================
+61. GENERATE ORIGINAL GAME MUSIC
+==================================================
+
+Use available AI music generation capabilities,
+such as supported Lyria models, to generate an
+original instrumental Kampung Wira soundtrack.
+
+The soundtrack should sound like a professionally
+produced international adventure game with Malaysian
+musical influences.
+
+Musical influences:
+
+- Gamelan
+- Kompang
+- Angklung
+- Seruling
+- Rebana
+- Gambus
+- Traditional percussion
+- Warm orchestral strings
+- Gentle cinematic instruments
+
+Create original musical compositions.
+
+Do not imitate a specific copyrighted song
+or existing commercial game soundtrack.
+
+Avoid intrusive vocals during learning activities.
+
+==================================================
+62. GAME SOUNDTRACK CATALOG
+==================================================
+
+Generate separate original tracks.
+
+TRACK 01 — KAMPUNG WIRA MAIN THEME
+
+Adventurous Malaysian orchestral theme.
+Warm, magical, exciting and memorable.
+
+TRACK 02 — PAGI DI KAMPUNG
+
+Relaxed tropical village exploration music.
+
+TRACK 03 — MENARA NOMBOR
+
+Playful mathematical puzzle music.
+Light percussion and curious melodic patterns.
+
+TRACK 04 — MAKMAL ALAM
+
+Mysterious but friendly science discovery music.
+
+TRACK 05 — PUSTAKA RIMBA
+
+Calm magical library exploration music.
+
+TRACK 06 — ADVENTURE BAY
+
+Cheerful coastal adventure music.
+
+TRACK 07 — TAMAN HARMONI
+
+Peaceful instrumental music for reflection.
+Provide a music-free option for religious lessons.
+
+TRACK 08 — BENGKEL BATIK
+
+Creative, colourful Malaysian instrumental music.
+
+TRACK 09 — PENTAS IRAMA
+
+Energetic traditional-inspired rhythmic music.
+
+TRACK 10 — ARENA WIRA
+
+Upbeat movement and recreational music.
+
+TRACK 11 — BINA KAMPUNG
+
+Motivational construction and village-building music.
+
+TRACK 12 — MISI BERJAYA
+
+Short achievement fanfare.
+
+TRACK 13 — MALAM DI KAMPUNG
+
+Peaceful nighttime village ambience.
+
+TRACK 14 — SAHABAT WIRA
+
+Warm companion introduction music.
+
+TRACK 15 — WIRA CILIK
+
+Grand but child-friendly achievement theme.
+
+==================================================
+63. ADAPTIVE GAME MUSIC ENGINE
+==================================================
+
+Implement a functional music manager.
+
+Music must respond to game state.
+
+Examples:
+
+Entering the village:
+Play village exploration music.
+
+Entering mathematics:
+Crossfade into mathematical adventure music.
+
+Starting science experiment:
+Use discovery ambience.
+
+Completing a chapter:
+Play a short victory fanfare.
+
+Returning to village:
+Crossfade back to village music.
+
+Implement:
+
+- Seamless looping
+- Crossfading
+- Volume normalization
+- Background music pause
+- Audio ducking during narration
+- Audio ducking during dialogue
+- Pause on inactive browser tab
+- Independent music volume
+
+Respect browser autoplay restrictions.
+
+Music should begin only after an appropriate
+user interaction.
+
+Do not play every soundtrack concurrently.
+
+==================================================
+64. GENERATE GAME SOUND EFFECTS
+==================================================
+
+Generate or synthesize original sound effects.
+
+Required sound categories:
+
+UI:
+
+- Button press
+- Button hover
+- Modal opening
+- Modal closing
+- Item selection
+- Navigation confirmation
+
+EDUCATIONAL:
+
+- Correct answer chime
+- Gentle retry cue
+- Hint notification
+- Object placement
+- Number collection
+- Letter matching
+- Puzzle completion
+
+GAMIFICATION:
+
+- XP collection
+- Star collection
+- Coin collection
+- Achievement unlock
+- Level up
+- Treasure opening
+- Building unlock
+- Construction completion
+
+ENVIRONMENT:
+
+- Flowing water
+- Forest ambience
+- Bird sounds
+- Rain ambience
+- Traditional wooden door opening
+- Footsteps
+- Village market ambience
+
+COMPANIONS:
+
+- Friendly animal reactions
+- Celebration sounds
+- Curious sounds
+
+Avoid loud, sudden or frightening effects.
+
+Do not use negative sounds that shame children
+for incorrect answers.
+
+==================================================
+65. VOICE AND EDUCATIONAL NARRATION
+==================================================
+
+Use appropriate supported speech generation
+or verified recordings.
+
+Default narration:
+
+Natural Malaysian Bahasa Melayu.
+
+English lessons:
+
+Clear, age-appropriate English narration.
+
+Additional languages:
+
+- Arabic
+- Mandarin
+- Tamil
+- Iban
+- Kadazandusun
+- Semai
+
+Use authentic pronunciation.
+
+Do not fabricate pronunciation recordings or
+translations.
+
+For Quranic recitation:
+
+Use verified recordings from qualified reciters.
+
+Do not synthesize potentially incorrect Quranic
+recitation and present it as verified.
+
+Narration features:
+
+- Replay instruction
+- Pause
+- Resume
+- Adjustable playback speed
+- Captions
+- Text alternative
+
+==================================================
+66. MULTIMEDIA GENERATION PIPELINE
+==================================================
+
+Create a controlled asset generation pipeline.
+
+For every missing asset:
+
+1. Identify its gameplay purpose.
+2. Select the appropriate generation capability.
+3. Define its artistic reference.
+4. Define the required aspect ratio.
+5. Generate candidate assets.
+6. Inspect visual consistency.
+7. Validate educational correctness where applicable.
+8. Select the best result.
+9. Optimize the selected asset.
+10. Save it into the project.
+11. Register it in the asset manifest.
+12. Integrate it into the application.
+13. Test its rendering or playback.
+
+Do not simply generate assets without integrating them.
+
+Avoid regenerating unchanged assets.
+
+Generate assets during development and reuse them.
+
+Do not generate new artwork and music every time
+a student opens a page.
+
+==================================================
+67. MULTIMEDIA ASSET LIBRARY
+==================================================
+
+Organize generated assets using:
+
+public/assets/
+  environments/
+    village/
+    mathematics/
+    science/
+    bahasa-melayu/
+    english/
+    islam/
+    moral/
+    arts/
+    music/
+    pjpk/
+    additional-languages/
+
+  characters/
+    avatars/
+    companions/
+    npcs/
+
+  buildings/
+  decorations/
+  educational/
+  textures/
+  icons/
+  badges/
+  cinematic/
+  storybooks/
+
+public/models/
+  avatars/
+  companions/
+  buildings/
+  environments/
+  educational/
+
+public/audio/
+  music/
+  narration/
+  effects/
+  ambience/
+
+public/videos/
+  onboarding/
+  cinematics/
+  educational/
+  celebrations/
+
+Create ASSET_MANIFEST.json.
+
+Record every asset with:
+
+- Stable asset ID
+- File path
+- Asset category
+- Subject
+- Intended usage
+- Dimensions
+- Aspect ratio
+- Duration where applicable
+- File size
+- Generation source
+- Original reference
+- Optimization status
+- Verification status
+
+Never reference nonexistent assets.
+
+==================================================
+68. ASSET OPTIMIZATION
+==================================================
+
+Optimize all generated media before deployment.
+
+IMAGES:
+
+- Prefer WebP or AVIF when appropriate.
+- Preserve alpha transparency when needed.
+- Generate responsive image variants.
+- Avoid unnecessarily large textures.
+
+3D MODELS:
+
+- Use GLB.
+- Optimize polygon counts.
+- Reuse geometry.
+- Use texture atlases.
+- Use supported model compression.
+- Use instanced meshes.
+
+VIDEO:
+
+- Generate optimized MP4 or WebM variants.
+- Provide poster images.
+- Lazy-load video.
+- Never preload every cinematic sequence.
+- Respect mobile network conditions.
+
+AUDIO:
+
+- Use compressed audio formats.
+- Normalize volume.
+- Create seamless loops where required.
+- Lazy-load subject-specific tracks.
+
+Preserve the original high-quality assets separately
+from optimized production variants.
+
+==================================================
+69. ADVANCED GRAPHICS QUALITY SETTINGS
+==================================================
+
+Implement four graphics presets.
+
+LOW:
+
+- 30 FPS target
+- Reduced rendering resolution
+- Simplified shaders
+- Baked lighting
+- Minimal particles
+- No expensive reflections
+- Lightweight animated characters
+
+MEDIUM:
+
+- Improved textures
+- Moderate particles
+- Basic shadows
+- Enhanced environmental animations
+
+HIGH:
+
+- Improved lighting
+- Enhanced shadows
+- Selective bloom
+- Higher-resolution textures
+- More environmental detail
+
+ULTRA:
+
+- Maximum supported visual fidelity
+- Enhanced reflections where practical
+- Advanced visual effects
+- Higher particle density
+- Cinematic post-processing
+
+Automatically select a suitable initial preset
+based on measured device capability.
+
+Allow manual adjustment.
+
+Do not force Ultra graphics on affordable phones.
+
+==================================================
+70. AI CAPABILITY AND COST OPTIMIZATION
+==================================================
+
+Use AI generation during the development process.
+
+Persist generated media locally.
+
+Do not invoke expensive generation models for:
+
+- Every page load
+- Every learner interaction
+- Every lesson attempt
+- Every avatar rotation
+- Every assessment
+- Every village visit
+
+Use deterministic local game engines for
+ordinary gameplay.
+
+Use generated media as reusable application assets.
+
+Call AI services only when genuinely necessary.
+
+Core learning must remain fully functional
+without active AI generation services.
+
+Never expose API credentials in frontend code.
+
+==================================================
+71. MULTIMEDIA QUALITY ASSURANCE
+==================================================
+
+Before accepting generated assets, verify:
+
+- Correct art style
+- Correct Malaysian cultural appearance
+- Character consistency
+- Image aspect ratio
+- Correct dimensions
+- File integrity
+- Audio playback
+- Video playback
+- Appropriate content for seven-year-old children
+- Educational accuracy
+- Scene integration
+- Responsive rendering
+- Resource loading
+- Acceptable performance
+
+Test every music track.
+
+Test every cinematic sequence.
+
+Test every Three.js scene.
+
+Do not mark an asset as verified if it has not
+been inspected.
+
+==================================================
+72. ADDITIONAL IMPLEMENTATION DOCUMENTATION
+==================================================
+
+Create:
+
+AI_CAPABILITY_REPORT.md
+ASSET_MANIFEST.json
+CHARACTER_BIBLE.md
+ART_DIRECTION.md
+THREEJS_SCENE_CATALOG.md
+ANIMATION_CATALOG.md
+SOUNDTRACK_CATALOG.md
+VIDEO_CATALOG.md
+MULTIMEDIA_QA_REPORT.md
+
+Report:
+
+- Available AI generation capabilities
+- Unavailable capabilities
+- Generated images
+- Edited images
+- Generated videos
+- Generated music
+- Created 3D models
+- Integrated assets
+- Missing assets
+- Performance measurements
+- Verification results
+
+Do not report fictional generated assets.
+
+==================================================
+73. FINAL ADVANCED PRODUCTION DIRECTIVE
+==================================================
+
+Use the highest available reasoning capability.
+
+Use actual Three.js scenes.
+
+Generate high-quality original game artwork.
+
+Edit existing images where necessary.
+
+Generate consistent character artwork.
+
+Animate approved images into cinematic videos.
+
+Generate an original Malaysian adventure soundtrack.
+
+Create a complete game sound-effect library.
+
+Control every generated image's aspect ratio.
+
+Integrate generated media into the actual application.
+
+Preserve all existing Stitch design principles.
+
+Deliver an international-quality Malaysian educational
+adventure game that children genuinely enjoy playing.
+
+Do not stop at a static prototype.
+
+Do not stop at a curriculum directory.
+
+Do not stop at placeholder assets.
+
+Build, integrate, test and optimize.

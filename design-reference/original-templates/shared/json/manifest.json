@@ -1,0 +1,640 @@
+{
+  "name": "Kampung Wira consolidated prototype collection",
+  "source_preserved": true,
+  "pages": [
+    {
+      "source": "abakus_manik_kristal_menara_nombor_ajaib/code.html",
+      "page": "pages/abakus_manik_kristal_menara_nombor_ajaib.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "adventure_bay_english_cefr_year_1/code.html",
+      "page": "pages/adventure_bay_english_cefr_year_1.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "animasi_gear_jam_kosmik_berputar_nombor_8_kristal_bintang/code.html",
+      "page": "pages/animasi_gear_jam_kosmik_berputar_nombor_8_kristal_bintang.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "animasi_memberi_makan_ikan_koi_kocakan_air_kolam_teratai/code.html",
+      "page": "pages/animasi_memberi_makan_ikan_koi_kocakan_air_kolam_teratai.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "aras_6_puncak_menara_nombor_teleskop_angkasa/code.html",
+      "page": "pages/aras_6_puncak_menara_nombor_teleskop_angkasa.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "bahagian_dalam_makmal_alam_sains_kssr_tahun_1/code.html",
+      "page": "pages/bahagian_dalam_makmal_alam_sains_kssr_tahun_1.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "bahagian_dalam_makmal_sains_rimba_persediaan_membuka_plot_6/code.html",
+      "page": "pages/bahagian_dalam_makmal_sains_rimba_persediaan_membuka_plot_6.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "bahagian_dalam_taman_harmoni_pendidikan_islam_moral/code.html",
+      "page": "pages/bahagian_dalam_taman_harmoni_pendidikan_islam_moral.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "bengkel_batik_pendidikan_seni_visual_kssr_tahun_1/code.html",
+      "page": "pages/bengkel_batik_pendidikan_seni_visual_kssr_tahun_1.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "bilik_enjin_roda_gear_bahagian_dalam_menara_nombor/code.html",
+      "page": "pages/bilik_enjin_roda_gear_bahagian_dalam_menara_nombor.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "bilik_pameran_rak_canting_galeri_batik_pelangi/code.html",
+      "page": "pages/bilik_pameran_rak_canting_galeri_batik_pelangi.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "dermaga_bay_bahagian_dalam_adventure_bay/code.html",
+      "page": "pages/dermaga_bay_bahagian_dalam_adventure_bay.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": false
+    },
+    {
+      "source": "jurnal_hidupan_kolam_kad_ikan_koi_bunga_teratai/code.html",
+      "page": "pages/jurnal_hidupan_kolam_kad_ikan_koi_bunga_teratai.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "kampung_wira_pintu_gerbang_utama/code.html",
+      "page": "pages/kampung_wira_pintu_gerbang_utama.html",
+      "styles": [
+        "5deca57a5b4213e0"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "kanvas_canting_bunga_raya_kssr_tahun_1/code.html",
+      "page": "pages/kanvas_canting_bunga_raya_kssr_tahun_1.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "karya_siap_dipamerkan_galeri_batik_pelangi_3_bintang/code.html",
+      "page": "pages/karya_siap_dipamerkan_galeri_batik_pelangi_3_bintang.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "kejayaan_kata_boat_buku_hadiah_pembinaan_desa/code.html",
+      "page": "pages/kejayaan_kata_boat_buku_hadiah_pembinaan_desa.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "kejayaan_kolam_100_bersih_trofi_kolam_kristal/code.html",
+      "page": "pages/kejayaan_kolam_100_bersih_trofi_kolam_kristal.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": false
+    },
+    {
+      "source": "kejayaan_nombor_14_kunci_emas_menara_dibuka/code.html",
+      "page": "pages/kejayaan_nombor_14_kunci_emas_menara_dibuka.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "kejayaan_puncak_pancaran_teleskop_menyalakan_bintang_kejora/code.html",
+      "page": "pages/kejayaan_puncak_pancaran_teleskop_menyalakan_bintang_kejora.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "kolam_teratai_bahagian_dalam_taman_harmoni/code.html",
+      "page": "pages/kolam_teratai_bahagian_dalam_taman_harmoni.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "log_masuk_wira_pintu_gerbang/code.html",
+      "page": "pages/log_masuk_wira_pintu_gerbang.html",
+      "styles": [
+        "5deca57a5b4213e0"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "makmal_alam_sains_kssr_tahun_1/code.html",
+      "page": "pages/makmal_alam_sains_kssr_tahun_1.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "menara_nombor_matematik_kssr_tahun_1/code.html",
+      "page": "pages/menara_nombor_matematik_kssr_tahun_1.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "mini_permainan_tangkap_daun_kering_kolam_teratai/code.html",
+      "page": "pages/mini_permainan_tangkap_daun_kering_kolam_teratai.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "pengesahan_letak_galeri_batik_plot_4_kampung_wira/code.html",
+      "page": "pages/pengesahan_letak_galeri_batik_plot_4_kampung_wira.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "peta_pembinaan_desa_bina_plot_5_menggunakan_syiling_terkumpul/code.html",
+      "page": "pages/peta_pembinaan_desa_bina_plot_5_menggunakan_syiling_terkumpul.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "peta_pembinaan_kampung_wira_mod_bina_desa_3d/code.html",
+      "page": "pages/peta_pembinaan_kampung_wira_mod_bina_desa_3d.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "pilih_sahabat_sahabat_wira/code.html",
+      "page": "pages/pilih_sahabat_sahabat_wira.html",
+      "styles": [
+        "5deca57a5b4213e0"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "pustaka_rimba_bahasa_melayu_kssr_tahun_1/code.html",
+      "page": "pages/pustaka_rimba_bahasa_melayu_kssr_tahun_1.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "rumah_ilmu_6_zon_pembelajaran_kssr/code.html",
+      "page": "pages/rumah_ilmu_6_zon_pembelajaran_kssr.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "sedang_dibina_galeri_batik_pelangi_di_plot_4/code.html",
+      "page": "pages/sedang_dibina_galeri_batik_pelangi_di_plot_4.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "sedang_dibina_wakaf_teduhan_kolam_santuari_di_plot_5/code.html",
+      "page": "pages/sedang_dibina_wakaf_teduhan_kolam_santuari_di_plot_5.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "siap_dibina_perasmian_galeri_batik_pelangi/code.html",
+      "page": "pages/siap_dibina_perasmian_galeri_batik_pelangi.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "siap_dibina_perasmian_wakaf_teduhan_kolam_santuari/code.html",
+      "page": "pages/siap_dibina_perasmian_wakaf_teduhan_kolam_santuari.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "studio_wira_cipta_avatar_3d/code.html",
+      "page": "pages/studio_wira_cipta_avatar_3d.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "taman_harmoni_pendidikan_islam_moral_kssr_tahun_1/code.html",
+      "page": "pages/taman_harmoni_pendidikan_islam_moral_kssr_tahun_1.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "tingkat_5_bilik_jam_angkasa_gear_nombor_gergasi/code.html",
+      "page": "pages/tingkat_5_bilik_jam_angkasa_gear_nombor_gergasi.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "upacara_potong_reben_paluan_kompang_galeri_batik/code.html",
+      "page": "pages/upacara_potong_reben_paluan_kompang_galeri_batik.html",
+      "styles": [
+        "5deca57a5b4213e0",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "wakaf_buku_bahagian_dalam_pustaka_rimba/code.html",
+      "page": "pages/wakaf_buku_bahagian_dalam_pustaka_rimba.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": true
+    },
+    {
+      "source": "wakaf_teduhan_kasih_bahagian_dalam_taman_harmoni/code.html",
+      "page": "pages/wakaf_teduhan_kasih_bahagian_dalam_taman_harmoni.html",
+      "styles": [
+        "4796914c0b856078",
+        "d08a966f1ccf70c9"
+      ],
+      "behavior": false
+    }
+  ],
+  "screenshots": [
+    {
+      "source": "3d_game_animated_construction_building_process_screen_in_kampung_wira_at_plot_5/screen.png",
+      "asset": "shared/images/3d_game_animated_construction_building_process_screen_in_kampung_wira_at_plot_5--screen.png"
+    },
+    {
+      "source": "3d_game_animated_interactive_celebration_visual_in_kampung_wira_feeding/screen.png",
+      "asset": "shared/images/3d_game_animated_interactive_celebration_visual_in_kampung_wira_feeding--screen.png"
+    },
+    {
+      "source": "3d_game_asset_diorama_of_a_magical_nusantara_malaysian_fantasy_wooden_abacus/screen.png",
+      "asset": "shared/images/3d_game_asset_diorama_of_a_magical_nusantara_malaysian_fantasy_wooden_abacus--screen.png"
+    },
+    {
+      "source": "3d_game_celebration_victory_visual_in_kampung_wira_celebrating_solving_the/screen.png",
+      "asset": "shared/images/3d_game_celebration_victory_visual_in_kampung_wira_celebrating_solving_the--screen.png"
+    },
+    {
+      "source": "3d_game_celebration_victory_visual_in_kampung_wira_celebrating_the_lotus_pond/screen.png",
+      "asset": "shared/images/3d_game_celebration_victory_visual_in_kampung_wira_celebrating_the_lotus_pond--screen.png"
+    },
+    {
+      "source": "3d_game_celebration_visual_of_a_giant_magical_astronomical_clock_in_motion/screen.png",
+      "asset": "shared/images/3d_game_celebration_visual_of_a_giant_magical_astronomical_clock_in_motion--screen.png"
+    },
+    {
+      "source": "3d_game_celebration_visual_of_the_summit_observatory_of_menara_nombor_ajaib/screen.png",
+      "asset": "shared/images/3d_game_celebration_visual_of_the_summit_observatory_of_menara_nombor_ajaib--screen.png"
+    },
+    {
+      "source": "3d_game_environment_diorama_of_kolam_teratai_lotus_pond_sanctuary_inside_taman/screen.png",
+      "asset": "shared/images/3d_game_environment_diorama_of_kolam_teratai_lotus_pond_sanctuary_inside_taman--screen.png"
+    },
+    {
+      "source": "3d_game_grand_opening_celebration_visual_in_kampung_wira_celebrating_the/screen.png",
+      "asset": "shared/images/3d_game_grand_opening_celebration_visual_in_kampung_wira_celebrating_the--screen.png"
+    },
+    {
+      "source": "3d_game_interior_and_open_air_observatory_deck_of_level_6_the_majestic_summit/screen.png",
+      "asset": "shared/images/3d_game_interior_and_open_air_observatory_deck_of_level_6_the_majestic_summit--screen.png"
+    },
+    {
+      "source": "3d_game_interior_diorama_of_dermaga_bay_boat_dock_workshop_inside_adventure_bay/screen.png",
+      "asset": "shared/images/3d_game_interior_diorama_of_dermaga_bay_boat_dock_workshop_inside_adventure_bay--screen.png"
+    },
+    {
+      "source": "3d_game_interior_diorama_of_level_5_of_menara_nombor_ajaib_clockwork_fantasy/screen.png",
+      "asset": "shared/images/3d_game_interior_diorama_of_level_5_of_menara_nombor_ajaib_clockwork_fantasy--screen.png"
+    },
+    {
+      "source": "3d_game_interior_diorama_of_makmal_alam_nature_science_laboratory_inside/screen.png",
+      "asset": "shared/images/3d_game_interior_diorama_of_makmal_alam_nature_science_laboratory_inside--screen.png"
+    },
+    {
+      "source": "3d_game_interior_diorama_of_makmal_sains_rimba_inside_kampung_wira_preparing/screen.png",
+      "asset": "shared/images/3d_game_interior_diorama_of_makmal_sains_rimba_inside_kampung_wira_preparing--screen.png"
+    },
+    {
+      "source": "3d_game_interior_diorama_of_taman_harmoni_peaceful_sanctuary_pavilion_inside/screen.png",
+      "asset": "shared/images/3d_game_interior_diorama_of_taman_harmoni_peaceful_sanctuary_pavilion_inside--screen.png"
+    },
+    {
+      "source": "3d_game_interior_diorama_of_wakaf_buku_library_pavilion_inside_pustaka_rimba/screen.png",
+      "asset": "shared/images/3d_game_interior_diorama_of_wakaf_buku_library_pavilion_inside_pustaka_rimba--screen.png"
+    },
+    {
+      "source": "3d_game_interior_diorama_of_wakaf_teduhan_kasih_inside_taman_harmoni_kampung/screen.png",
+      "asset": "shared/images/3d_game_interior_diorama_of_wakaf_teduhan_kasih_inside_taman_harmoni_kampung--screen.png"
+    },
+    {
+      "source": "3d_game_nature_encyclopedia_journal_visual_of_aquatic_life_jurnal_hidupan_kolam/screen.png",
+      "asset": "shared/images/3d_game_nature_encyclopedia_journal_visual_of_aquatic_life_jurnal_hidupan_kolam--screen.png"
+    },
+    {
+      "source": "3d_game_victory_asset_of_an_ornate_glowing_magical_golden_brass_fantasy_key/screen.png",
+      "asset": "shared/images/3d_game_victory_asset_of_an_ornate_glowing_magical_golden_brass_fantasy_key--screen.png"
+    },
+    {
+      "source": "3d_isometric_diorama_game_interior_of_a_whimsical_fantasy_clockwork_math_tower/screen.png",
+      "asset": "shared/images/3d_isometric_diorama_game_interior_of_a_whimsical_fantasy_clockwork_math_tower--screen.png"
+    },
+    {
+      "source": "3d_isometric_diorama_view_of_kampung_wira_village_builder_expansion_map_showing/screen.png",
+      "asset": "shared/images/3d_isometric_diorama_view_of_kampung_wira_village_builder_expansion_map_showing--screen.png"
+    },
+    {
+      "source": "3d_mobile_game_interactive_minigame_screen_in_kampung_wira_cleaning_floating/screen.png",
+      "asset": "shared/images/3d_mobile_game_interactive_minigame_screen_in_kampung_wira_cleaning_floating--screen.png"
+    },
+    {
+      "source": "abakus_manik_kristal_menara_nombor_ajaib/screen.png",
+      "asset": "shared/images/abakus_manik_kristal_menara_nombor_ajaib--screen.png"
+    },
+    {
+      "source": "adventure_bay_english_cefr_year_1/screen.png",
+      "asset": "shared/images/adventure_bay_english_cefr_year_1--screen.png"
+    },
+    {
+      "source": "animasi_gear_jam_kosmik_berputar_nombor_8_kristal_bintang/screen.png",
+      "asset": "shared/images/animasi_gear_jam_kosmik_berputar_nombor_8_kristal_bintang--screen.png"
+    },
+    {
+      "source": "animasi_memberi_makan_ikan_koi_kocakan_air_kolam_teratai/screen.png",
+      "asset": "shared/images/animasi_memberi_makan_ikan_koi_kocakan_air_kolam_teratai--screen.png"
+    },
+    {
+      "source": "aras_6_puncak_menara_nombor_teleskop_angkasa/screen.png",
+      "asset": "shared/images/aras_6_puncak_menara_nombor_teleskop_angkasa--screen.png"
+    },
+    {
+      "source": "bahagian_dalam_makmal_alam_sains_kssr_tahun_1/screen.png",
+      "asset": "shared/images/bahagian_dalam_makmal_alam_sains_kssr_tahun_1--screen.png"
+    },
+    {
+      "source": "bahagian_dalam_makmal_sains_rimba_persediaan_membuka_plot_6/screen.png",
+      "asset": "shared/images/bahagian_dalam_makmal_sains_rimba_persediaan_membuka_plot_6--screen.png"
+    },
+    {
+      "source": "bahagian_dalam_taman_harmoni_pendidikan_islam_moral/screen.png",
+      "asset": "shared/images/bahagian_dalam_taman_harmoni_pendidikan_islam_moral--screen.png"
+    },
+    {
+      "source": "bengkel_batik_pendidikan_seni_visual_kssr_tahun_1/screen.png",
+      "asset": "shared/images/bengkel_batik_pendidikan_seni_visual_kssr_tahun_1--screen.png"
+    },
+    {
+      "source": "bilik_enjin_roda_gear_bahagian_dalam_menara_nombor/screen.png",
+      "asset": "shared/images/bilik_enjin_roda_gear_bahagian_dalam_menara_nombor--screen.png"
+    },
+    {
+      "source": "bilik_pameran_rak_canting_galeri_batik_pelangi/screen.png",
+      "asset": "shared/images/bilik_pameran_rak_canting_galeri_batik_pelangi--screen.png"
+    },
+    {
+      "source": "dermaga_bay_bahagian_dalam_adventure_bay/screen.png",
+      "asset": "shared/images/dermaga_bay_bahagian_dalam_adventure_bay--screen.png"
+    },
+    {
+      "source": "jurnal_hidupan_kolam_kad_ikan_koi_bunga_teratai/screen.png",
+      "asset": "shared/images/jurnal_hidupan_kolam_kad_ikan_koi_bunga_teratai--screen.png"
+    },
+    {
+      "source": "kampung_wira_pintu_gerbang_utama/screen.png",
+      "asset": "shared/images/kampung_wira_pintu_gerbang_utama--screen.png"
+    },
+    {
+      "source": "kanvas_canting_bunga_raya_kssr_tahun_1/screen.png",
+      "asset": "shared/images/kanvas_canting_bunga_raya_kssr_tahun_1--screen.png"
+    },
+    {
+      "source": "karya_siap_dipamerkan_galeri_batik_pelangi_3_bintang/screen.png",
+      "asset": "shared/images/karya_siap_dipamerkan_galeri_batik_pelangi_3_bintang--screen.png"
+    },
+    {
+      "source": "kejayaan_kata_boat_buku_hadiah_pembinaan_desa/screen.png",
+      "asset": "shared/images/kejayaan_kata_boat_buku_hadiah_pembinaan_desa--screen.png"
+    },
+    {
+      "source": "kejayaan_kolam_100_bersih_trofi_kolam_kristal/screen.png",
+      "asset": "shared/images/kejayaan_kolam_100_bersih_trofi_kolam_kristal--screen.png"
+    },
+    {
+      "source": "kejayaan_nombor_14_kunci_emas_menara_dibuka/screen.png",
+      "asset": "shared/images/kejayaan_nombor_14_kunci_emas_menara_dibuka--screen.png"
+    },
+    {
+      "source": "kejayaan_puncak_pancaran_teleskop_menyalakan_bintang_kejora/screen.png",
+      "asset": "shared/images/kejayaan_puncak_pancaran_teleskop_menyalakan_bintang_kejora--screen.png"
+    },
+    {
+      "source": "kolam_teratai_bahagian_dalam_taman_harmoni/screen.png",
+      "asset": "shared/images/kolam_teratai_bahagian_dalam_taman_harmoni--screen.png"
+    },
+    {
+      "source": "log_masuk_wira_pintu_gerbang/screen.png",
+      "asset": "shared/images/log_masuk_wira_pintu_gerbang--screen.png"
+    },
+    {
+      "source": "makmal_alam_sains_kssr_tahun_1/screen.png",
+      "asset": "shared/images/makmal_alam_sains_kssr_tahun_1--screen.png"
+    },
+    {
+      "source": "menara_nombor_matematik_kssr_tahun_1/screen.png",
+      "asset": "shared/images/menara_nombor_matematik_kssr_tahun_1--screen.png"
+    },
+    {
+      "source": "mini_permainan_tangkap_daun_kering_kolam_teratai/screen.png",
+      "asset": "shared/images/mini_permainan_tangkap_daun_kering_kolam_teratai--screen.png"
+    },
+    {
+      "source": "pengesahan_letak_galeri_batik_plot_4_kampung_wira/screen.png",
+      "asset": "shared/images/pengesahan_letak_galeri_batik_plot_4_kampung_wira--screen.png"
+    },
+    {
+      "source": "peta_pembinaan_desa_bina_plot_5_menggunakan_syiling_terkumpul/screen.png",
+      "asset": "shared/images/peta_pembinaan_desa_bina_plot_5_menggunakan_syiling_terkumpul--screen.png"
+    },
+    {
+      "source": "peta_pembinaan_kampung_wira_mod_bina_desa_3d/screen.png",
+      "asset": "shared/images/peta_pembinaan_kampung_wira_mod_bina_desa_3d--screen.png"
+    },
+    {
+      "source": "pilih_sahabat_sahabat_wira/screen.png",
+      "asset": "shared/images/pilih_sahabat_sahabat_wira--screen.png"
+    },
+    {
+      "source": "pustaka_rimba_bahasa_melayu_kssr_tahun_1/screen.png",
+      "asset": "shared/images/pustaka_rimba_bahasa_melayu_kssr_tahun_1--screen.png"
+    },
+    {
+      "source": "rumah_ilmu_6_zon_pembelajaran_kssr/screen.png",
+      "asset": "shared/images/rumah_ilmu_6_zon_pembelajaran_kssr--screen.png"
+    },
+    {
+      "source": "sedang_dibina_galeri_batik_pelangi_di_plot_4/screen.png",
+      "asset": "shared/images/sedang_dibina_galeri_batik_pelangi_di_plot_4--screen.png"
+    },
+    {
+      "source": "sedang_dibina_wakaf_teduhan_kolam_santuari_di_plot_5/screen.png",
+      "asset": "shared/images/sedang_dibina_wakaf_teduhan_kolam_santuari_di_plot_5--screen.png"
+    },
+    {
+      "source": "siap_dibina_perasmian_galeri_batik_pelangi/screen.png",
+      "asset": "shared/images/siap_dibina_perasmian_galeri_batik_pelangi--screen.png"
+    },
+    {
+      "source": "siap_dibina_perasmian_wakaf_teduhan_kolam_santuari/screen.png",
+      "asset": "shared/images/siap_dibina_perasmian_wakaf_teduhan_kolam_santuari--screen.png"
+    },
+    {
+      "source": "studio_wira_cipta_avatar_3d/screen.png",
+      "asset": "shared/images/studio_wira_cipta_avatar_3d--screen.png"
+    },
+    {
+      "source": "taman_harmoni_pendidikan_islam_moral_kssr_tahun_1/screen.png",
+      "asset": "shared/images/taman_harmoni_pendidikan_islam_moral_kssr_tahun_1--screen.png"
+    },
+    {
+      "source": "tingkat_5_bilik_jam_angkasa_gear_nombor_gergasi/screen.png",
+      "asset": "shared/images/tingkat_5_bilik_jam_angkasa_gear_nombor_gergasi--screen.png"
+    },
+    {
+      "source": "upacara_potong_reben_paluan_kompang_galeri_batik/screen.png",
+      "asset": "shared/images/upacara_potong_reben_paluan_kompang_galeri_batik--screen.png"
+    },
+    {
+      "source": "wakaf_buku_bahagian_dalam_pustaka_rimba/screen.png",
+      "asset": "shared/images/wakaf_buku_bahagian_dalam_pustaka_rimba--screen.png"
+    },
+    {
+      "source": "wakaf_teduhan_kasih_bahagian_dalam_taman_harmoni/screen.png",
+      "asset": "shared/images/wakaf_teduhan_kasih_bahagian_dalam_taman_harmoni--screen.png"
+    }
+  ],
+  "remote_assets": {
+    "localized_images": 91,
+    "unresolved_images": [
+      "https://lh3.googleusercontent.com/aida/ALJJyrAuquh9k5Eoajs1KfeBj1w5awfOCj2vnvhC81VJhNqbUmItBWnqPiKabjo7V1kwCY9iWrSigg3GLKF2ciz_Ha6dFh4-tCEVOhP1mWA_n3NwJSKeohyNX_shEZAOpwjxiQRAWXEn37YBYFbHbsbw2FQw6p2nleg73OjGUjYs_hIcUQ29WCgQevVX9P5sHyu34ajbuSq4ARQ"
+    ],
+    "localized_font_stylesheets": 4,
+    "localized_font_files": 15,
+    "localized_tailwind_runtimes": 2
+  },
+  "notes": [
+    "Original HTML content remains in the original folders; each code.html was renamed to its parent-folder name.",
+    "Consolidated page filenames are derived from original folder names because all source pages shared the basename code.html.",
+    "Original placeholder links and UI behavior are preserved."
+  ]
+}

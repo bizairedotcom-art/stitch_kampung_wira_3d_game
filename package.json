@@ -1,0 +1,43 @@
+{
+  "name": "kampung-wira-3d-game",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kampung Wira consolidated KSSR Tahun 1 interactive 3D game prototypes",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "start": "NODE_ENV=production tsx server.ts",
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "validate:curriculum": "tsx scripts/validate-curriculum.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "@supabase/supabase-js": "^2.119.2",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "gsap": "^3.15.1",
+    "jose": "^6.2.18",
+    "lucide-react": "^1.77.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.6",
+    "tailwindcss": "^4.3.5",
+    "three": "^0.187.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.1",
+    "zustand": "^5.1.0"
+  }
+}

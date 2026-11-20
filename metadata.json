@@ -1,0 +1,6 @@
+{
+  "name": "Kampung Wira 3D Game",
+  "description": "Koleksi permainan pendidikan interaktif 3D KSSR Semakan 2017 Tahun 1 Sekolah Kebangsaan Kampung Wira.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

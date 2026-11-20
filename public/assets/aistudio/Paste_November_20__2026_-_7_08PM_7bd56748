@@ -1,0 +1,2207 @@
+# PROJECT: KAMPUNG WIRA
+
+ROLE:
+Act as a senior full-stack software architect, educational
+game developer, Three.js specialist, UI/UX engineer,
+curriculum engineer and quality assurance engineer.
+
+MISSION:
+Transform the uploaded merged.zip into a complete,
+production-ready, internationally competitive Malaysian
+3D educational adventure and village-building game.
+
+CURRICULUM:
+KSSR Semakan 2017, Tahap 1, Tahun 1.
+
+SCHOOL TYPE:
+Sekolah Kebangsaan (SK) ONLY.
+
+TARGET AUDIENCE:
+Malaysian children aged 7 years old.
+
+DEFAULT LANGUAGE:
+Bahasa Melayu.
+
+This is a SOFTWARE IMPLEMENTATION task.
+
+Do not stop at generating designs, mockups, documentation,
+sample pages or incomplete demonstrations.
+
+==================================================
+1. AUTHORITATIVE STITCH SOURCE PROJECT
+==================================================
+
+The uploaded merged.zip is the consolidated Google Stitch
+design project.
+
+It contains:
+
+- 41 HTML screen templates
+- 41 JavaScript files
+- 7 CSS files
+- 91 JPG images
+- 63 PNG images
+- 15 font files
+- 2 JSON files
+- 2 Markdown documentation files
+
+Total: 262 files.
+Extracted size: approximately 67.6 MB.
+
+SOURCE STRUCTURE:
+
+merged.zip/
+  DESIGN.md
+  README.md
+  pages/
+  shared/
+    css/
+    js/
+      pages/
+    json/
+    fonts/
+    images/
+
+Read every relevant source file.
+
+Inspect all 41 templates before implementation.
+
+Read:
+
+- DESIGN.md
+- README.md
+- shared/json/manifest.json
+- shared/json/design-tokens.json
+- shared/js/tailwind-config.js
+
+The consolidated archive is the authoritative source
+for the existing visual identity.
+
+Preserve original templates in:
+
+design-reference/original-templates/
+
+Never unnecessarily redesign existing screens.
+
+==================================================
+2. MANDATORY DESIGN SYSTEM
+==================================================
+
+DESIGN SYSTEM:
+Nusantara Toybox Adventure.
+
+ART DIRECTION:
+Tactile Toyetic Skeuomorphism combined with
+Malaysian Cultural Modernism.
+
+Preserve:
+
+- Carved chengal wood
+- Ukiran kayu
+- Burnished brass
+- Golden filigree
+- Songket borders
+- Kelarai geometric patterns
+- Chunky sculpted 3D buttons
+- Glossy tactile surfaces
+- Tropical Malaysian landscapes
+- Isometric village environments
+
+COLOR PALETTE:
+
+Emerald Green: #0D9668
+Royal Amber Gold: #F59E0B
+River Turquoise: #06B6D4
+Warm Timber: #78350F
+Bunga Raya Red: #E11D48
+Songket Violet: #7C3AED
+Warm Ivory: #FFFBEB
+
+TYPOGRAPHY:
+
+Headings:
+Rubik.
+
+Body:
+Plus Jakarta Sans.
+
+Retain the existing Stitch design tokens.
+
+Visual inspiration:
+
+- Clash of Clans
+- Hay Day
+- Animal Crossing
+- Astro Bot
+- Super Mario Odyssey
+
+Create original assets and characters.
+
+Do not copy proprietary game assets.
+
+The final application must feel like a premium
+international adventure game with Malaysian identity.
+
+==================================================
+3. STRICT ANTI-GENERIC DESIGN REQUIREMENTS
+==================================================
+
+NEVER generate:
+
+- Generic SaaS dashboards
+- Generic education portals
+- Bootstrap interfaces
+- Material UI-looking interfaces
+- Excessive whitespace
+- Plain white cards everywhere
+- Generic gradient landing pages
+- Flat cartoon clipart
+- Emoji replacing proper game artwork
+- Repetitive rectangular layouts
+- Ordinary web forms without visual identity
+
+All missing screens must inherit the existing
+Nusantara Toybox Adventure visual language.
+
+Maintain the high visual density, polish, depth
+and character of the supplied Stitch templates.
+
+==================================================
+4. TECHNOLOGY ARCHITECTURE
+==================================================
+
+Use a modular architecture.
+
+FRONTEND:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS compiled at build time
+- React Router
+- Zustand
+
+3D ENGINE:
+
+- Three.js
+- React Three Fiber
+- Drei
+- GSAP
+- AnimationMixer
+- GLTF / GLB
+
+2D GAMES:
+
+- Phaser.js only where its use is justified
+- Canvas API
+- SVG
+- HTML-based interactive controls
+
+AUDIO:
+
+- Web Audio API
+- Verified narration recordings
+- Speech synthesis where suitable
+- Original sound effects
+
+STORAGE:
+
+- IndexedDB
+- Versioned curriculum datasets
+- Backend persistence adapter
+
+BACKEND:
+
+- Secure authentication
+- Parent-managed accounts
+- Persistent learner profiles
+- Server-side authorization
+- Progress synchronization
+- Laravel-compatible REST API architecture
+
+Keep the frontend portable.
+
+Do not tightly couple the application to a proprietary
+hosting platform or database provider.
+
+The application must be deployable later to a
+Flotraq-managed Laravel backend with PostgreSQL and Redis.
+
+PWA:
+
+- Service worker
+- Installable application
+- Offline lesson caching
+- Offline progress queue
+- Reconnection synchronization
+
+All 3D rendering runs on the user's device.
+
+Do not require GPU servers for ordinary gameplay.
+
+==================================================
+5. PROJECT STRUCTURE
+==================================================
+
+Generate a maintainable project structure:
+
+src/
+  components/
+    game-ui/
+    learning/
+    three/
+    accessibility/
+  features/
+    auth/
+    avatar/
+    companion/
+    village/
+    curriculum/
+    assessment/
+    parent/
+  engines/
+    mathematics/
+    science/
+    language/
+    creative/
+    music/
+    health/
+    gamification/
+  curriculum/
+    kssr-2017/
+      tahun-1/
+  stores/
+  services/
+  routes/
+  types/
+  utilities/
+
+public/
+  assets/
+  models/
+  audio/
+  fonts/
+
+design-reference/
+  DESIGN.md
+  original-templates/
+
+tests/
+
+Do not create hundreds of duplicated components.
+
+Prefer data-driven reusable engines.
+
+==================================================
+6. EXISTING TEMPLATE INVENTORY
+==================================================
+
+Create TEMPLATE_MAPPING.md covering all 41 templates.
+
+Each template must map to:
+
+- Application route
+- React component
+- Modal
+- Game scene
+- Animation state
+- Reusable game engine
+
+MAIN APPLICATION:
+
+kampung_wira_pintu_gerbang_utama.html
+
+AUTHENTICATION:
+
+log_masuk_wira_pintu_gerbang.html
+
+AVATAR:
+
+studio_wira_cipta_avatar_3d.html
+
+COMPANION:
+
+pilih_sahabat_sahabat_wira.html
+
+CURRICULUM:
+
+rumah_ilmu_6_zon_pembelajaran_kssr.html
+
+MATHEMATICS:
+
+menara_nombor_matematik_kssr_tahun_1.html
+abakus_manik_kristal_menara_nombor_ajaib.html
+bilik_enjin_roda_gear_bahagian_dalam_menara_nombor.html
+tingkat_5_bilik_jam_angkasa_gear_nombor_gergasi.html
+aras_6_puncak_menara_nombor_teleskop_angkasa.html
+
+SCIENCE:
+
+makmal_alam_sains_kssr_tahun_1.html
+bahagian_dalam_makmal_alam_sains_kssr_tahun_1.html
+bahagian_dalam_makmal_sains_rimba_persediaan_membuka_plot_6.html
+
+BAHASA MELAYU:
+
+pustaka_rimba_bahasa_melayu_kssr_tahun_1.html
+wakaf_buku_bahagian_dalam_pustaka_rimba.html
+
+ENGLISH:
+
+adventure_bay_english_cefr_year_1.html
+dermaga_bay_bahagian_dalam_adventure_bay.html
+
+ISLAMIC AND MORAL EDUCATION:
+
+taman_harmoni_pendidikan_islam_moral_kssr_tahun_1.html
+bahagian_dalam_taman_harmoni_pendidikan_islam_moral.html
+kolam_teratai_bahagian_dalam_taman_harmoni.html
+wakaf_teduhan_kasih_bahagian_dalam_taman_harmoni.html
+
+VISUAL ARTS:
+
+bengkel_batik_pendidikan_seni_visual_kssr_tahun_1.html
+kanvas_canting_bunga_raya_kssr_tahun_1.html
+bilik_pameran_rak_canting_galeri_batik_pelangi.html
+
+VILLAGE CONSTRUCTION:
+
+peta_pembinaan_kampung_wira_mod_bina_desa_3d.html
+peta_pembinaan_desa_bina_plot_5_menggunakan_syiling_terkumpul.html
+
+Inspect and map every remaining template.
+
+Do not ignore victory, construction, pond,
+celebration or opening ceremony templates.
+
+Related screens should become states in reusable
+gameplay and animation engines where appropriate.
+
+==================================================
+7. REPLACE ALL PROTOTYPE FUNCTIONALITY
+==================================================
+
+Inspect every JavaScript file in shared/js/pages/.
+
+Existing prototype scripts contain visual feedback
+without actual functionality.
+
+Replace them with functional application behavior.
+
+Examples:
+
+- Button click animation must trigger actual action.
+- Audio toggle must play or stop real narration.
+- Building selection must open the curriculum.
+- Avatar selection must modify the actual 3D model.
+- Construction must update the persistent village.
+- Victory screens must reflect real achievements.
+
+Replace hardcoded values:
+
+Adik Adam -> actual learner nickname.
+128 stars -> actual earned stars.
+450 coins -> actual coin balance.
+
+Never fabricate learning progress.
+
+No disconnected buttons.
+
+No dead navigation links.
+
+No fake functionality.
+
+==================================================
+8. APPLICATION ROUTES
+==================================================
+
+Implement at least:
+
+/
+Public game entrance.
+
+/login
+Parent-managed authentication.
+
+/register
+Parent registration.
+
+/onboarding/learner
+Learner profile.
+
+/onboarding/avatar
+3D avatar creator.
+
+/onboarding/companion
+Companion selection.
+
+/onboarding/village
+First village creation.
+
+/village
+Personal 3D village.
+
+/subjects
+Complete subject directory.
+
+/subjects/:subjectId
+Subject world.
+
+/subjects/:subjectId/:chapterId
+Chapter map.
+
+/learn/:lessonId
+Interactive lesson.
+
+/play/:activityId
+Educational mini-game.
+
+/assessment/:assessmentId
+Assessment.
+
+/revision
+Adaptive revision.
+
+/missions
+Learning missions.
+
+/achievements
+Achievement collection.
+
+/inventory
+Earned items.
+
+/avatar
+Character customization.
+
+/companion
+Companion customization.
+
+/build
+Village construction mode.
+
+/settings
+Student settings.
+
+/parent
+Parent dashboard.
+
+/parent/learners
+Learner management.
+
+/parent/progress
+Learning progress.
+
+/parent/curriculum
+Curriculum coverage.
+
+/parent/settings
+Parent settings.
+
+Implement route guards and error handling.
+
+==================================================
+9. COMPLETE CURRICULUM ENGINE
+==================================================
+
+Create a fully data-driven curriculum engine.
+
+Hierarchy:
+
+Curriculum Version
+  -> School Type
+    -> School Year
+      -> Subject
+        -> Chapter
+          -> Topic
+            -> Subtopic
+              -> Learning Objectives
+              -> Lesson
+              -> Demonstration
+              -> Practice
+              -> Mini-Game
+              -> Assessment
+
+Every curriculum record must include:
+
+- Unique stable ID
+- Curriculum version
+- School type
+- School year
+- Subject ID
+- Parent chapter ID
+- Topic ID
+- Title
+- Description
+- Prerequisites
+- Learning objectives
+- Difficulty
+- Activity engine
+- Lesson content
+- Assessment items
+- Correct answers
+- Accepted alternative answers
+- Explanations
+- Hints
+- XP reward
+- Mastery criteria
+- Estimated duration
+- Official source references
+- Source verification status
+
+Only use official Standard Kandungan and Standard
+Pembelajaran codes when verified against the
+relevant DSKP.
+
+Never invent KPM curriculum codes.
+
+The user-supplied curriculum is the mandatory
+implementation inventory.
+
+Differentiate:
+
+- Verified official curriculum
+- Original learning activities
+- Supplementary enrichment
+- Content awaiting qualified review
+
+Support future curriculum versions without
+changing the core game engines.
+
+==================================================
+10. ALL 15 SUBJECTS ARE MANDATORY
+==================================================
+
+Expand the existing six-zone Rumah Ilmu into
+a dynamic subject directory.
+
+SUBJECT DATASETS:
+
+01. matematik.json
+02. sains.json
+03. bahasa-melayu.json
+04. bahasa-inggeris.json
+05. pendidikan-islam.json
+06. pendidikan-moral.json
+07. pendidikan-seni-visual.json
+08. pendidikan-muzik.json
+09. pjpk.json
+10. bahasa-arab.json
+11. bahasa-cina-sk.json
+12. bahasa-tamil-sk.json
+13. bahasa-iban.json
+14. bahasa-kadazandusun.json
+15. bahasa-semai.json
+
+Implement all subjects.
+
+Pendidikan Islam and Pendidikan Moral must
+remain separate curriculum subjects.
+
+The guardian configures the applicable subject.
+
+Additional languages are enabled according to
+actual school offerings.
+
+Do not add Year 2 or Year 3.
+
+Do not introduce SJKC or SJKT-specific curricula.
+
+==================================================
+11. EVERY SUBTOPIC MUST CONTAIN REAL CONTENT
+==================================================
+
+For every subtopic in the supplied curriculum:
+
+1. Original educational explanation.
+2. Illustrated learning examples.
+3. Audio narration option.
+4. Interactive demonstration.
+5. Guided practice.
+6. Educational mini-game.
+7. Independent practice.
+8. Assessment.
+9. Answer explanations.
+10. Progressive hints.
+11. Learning progress tracking.
+12. Reward integration.
+
+Provide a minimum of 10 meaningful validated
+assessment items or parameterized question
+templates per objectively assessable subtopic.
+
+Use appropriate alternative assessment methods
+for creative and physical activities.
+
+No chapter may contain only a title.
+
+No empty learning modules.
+
+No placeholder-only pages.
+
+No Coming Soon screens presented as completed.
+
+Do not rely exclusively on multiple-choice questions.
+
+==================================================
+12. PERSONAL THREE.JS VILLAGE
+==================================================
+
+Implement an actual interactive isometric 3D village.
+
+The provided JPG and PNG artwork represents
+environmental design references.
+
+They are not real 3D scenes.
+
+Preserve them for:
+
+- Loading screens
+- Environmental reference
+- Illustrations
+- Decorative backgrounds
+- Accessible lightweight fallbacks
+
+Create actual Three.js geometry for:
+
+- Traditional Malaysian houses
+- Wakaf
+- Educational buildings
+- Rivers
+- Bridges
+- Padi fields
+- Coconut trees
+- Tropical plants
+- Paths
+- Construction plots
+- Decorative props
+
+Use original procedural geometry when GLB
+models are unavailable.
+
+Implement:
+
+- Isometric camera
+- Smooth camera pan
+- Pinch zoom
+- Orbit controls
+- Raycasting
+- Object selection
+- Building inspection
+- Camera focus transitions
+- Grid-based object placement
+- Collision validation
+
+The village is the main navigation system.
+
+Do not turn the village into a static background
+with unrelated HTML buttons.
+
+==================================================
+13. MALAYSIAN ENVIRONMENTAL ANIMATIONS
+==================================================
+
+Implement lightweight real-time animations:
+
+- Swaying coconut trees
+- Moving padi fields
+- Flowing rivers
+- Waterfalls
+- Swimming fish
+- Flying hornbills
+- Butterflies
+- Moving wooden sampans
+- Floating clouds
+- Lantern lights
+- Fireflies
+- Animated villagers
+- Rotating magical crystals
+
+Include optional day and night transitions.
+
+Use GPU-efficient shaders, instancing and
+controlled particle systems.
+
+Animations must remain comfortable for children.
+
+==================================================
+14. EDUCATIONAL BUILDINGS
+==================================================
+
+MATEMATIK:
+Menara Nombor Ajaib.
+
+SAINS:
+Makmal Alam.
+
+BAHASA MELAYU:
+Pustaka Rimba.
+
+BAHASA INGGERIS:
+Adventure Bay.
+
+PENDIDIKAN ISLAM:
+Taman Harmoni — Zon Pendidikan Islam.
+
+PENDIDIKAN MORAL:
+Taman Harmoni — Zon Pendidikan Moral.
+
+PENDIDIKAN SENI VISUAL:
+Bengkel Batik Pelangi.
+
+PENDIDIKAN MUZIK:
+Pentas Irama Nusantara.
+
+PJPK:
+Arena Wira Cergas.
+
+BAHASA ARAB:
+Taman Bahasa Arab.
+
+BAHASA CINA SK:
+Pavilion Mandarin.
+
+BAHASA TAMIL SK:
+Pusat Bahasa Tamil.
+
+BAHASA IBAN:
+Rumah Panjang Ilmu.
+
+BAHASA KADAZANDUSUN:
+Pondok Bahasa Sabah.
+
+BAHASA SEMAI:
+Pusat Bahasa dan Warisan Semai.
+
+Each educational building must provide:
+
+- Original visual identity
+- Functional interactive entrance
+- Subject progress
+- Chapter map
+- Learning missions
+- Reward previews
+- Completed lesson indicators
+
+Selecting a building triggers:
+
+1. Outline highlight.
+2. Camera movement.
+3. Door opening.
+4. Companion reaction.
+5. Subject interface transition.
+
+==================================================
+15. REAL-TIME 3D AVATAR ENGINE
+==================================================
+
+Convert studio_wira_cipta_avatar_3d.html into
+a real character customization system.
+
+The avatar must be rendered in a real Three.js canvas.
+
+Support:
+
+- 360-degree rotation
+- Zoom
+- Multiple skin tones
+- Face variations
+- Hairstyles
+- Eye variations
+- Clothing
+- Shoes
+- Backpacks
+- Hats
+- Glasses
+- Hijab
+- Songkok
+- Tengkolok
+- Baju Melayu
+- Baju Kurung
+- Adventure costumes
+
+Use modular meshes, materials and attachable accessories.
+
+Where suitable assets exist, use skeletal animation.
+
+Otherwise, implement functional articulated
+procedural characters without pretending that
+production-ready rigged models are available.
+
+ANIMATION STATES:
+
+- Idle
+- Blink
+- Wave
+- Walk
+- Run
+- Jump
+- Think
+- Celebrate
+- Encourage
+
+Avatar changes must update immediately.
+
+Persist all selected customization settings.
+
+Display the same avatar throughout the application.
+
+Do not use unrelated static profile pictures.
+
+==================================================
+16. COMPANION ENGINE
+==================================================
+
+Implement original animated Malaysian companions:
+
+Rimau:
+Baby Malayan tiger.
+
+Kancil:
+Mousedeer.
+
+Enggang:
+Hornbill.
+
+Utan:
+Orangutan.
+
+Badak:
+Rhinoceros.
+
+Each companion provides:
+
+- Learning instructions
+- Audio narration
+- Contextual hints
+- Encouragement
+- Mistake explanations
+- Celebration animations
+
+All companions provide equal learning functionality.
+
+The selected companion must persist across sessions.
+
+==================================================
+17. AUTHENTICATION AND ONBOARDING
+==================================================
+
+Use the existing login and avatar templates.
+
+Create missing registration screens using the
+same visual design system.
+
+Onboarding sequence:
+
+1. Parent registration.
+2. Parent consent.
+3. Learner nickname.
+4. Learner language.
+5. Applicable subject configuration.
+6. 3D avatar customization.
+7. Companion selection.
+8. First village construction.
+9. First learning mission.
+
+School level is fixed:
+
+Tahun 1 — Sekolah Kebangsaan.
+
+Do not request unnecessary child personal information.
+
+Implement:
+
+- Registration
+- Login
+- Logout
+- Password reset
+- Session persistence
+- Multiple child profiles
+- Learner switching
+- Protected parent dashboard
+
+Use secure authentication.
+
+Never store plaintext passwords.
+
+If production authentication is not configured,
+provide an explicitly labeled demo mode.
+
+Do not present demo authentication as production-ready.
+
+==================================================
+18. MATHEMATICS — MENARA NOMBOR AJAIB
+==================================================
+
+Implement all eight chapters.
+
+CHAPTER 1:
+Nombor hingga 100.
+
+Games:
+
+- Rambutan counting
+- Coconut collection
+- Number matching
+- Interactive abacus
+- Base-ten blocks
+- Number line
+- Number sequences
+- Number comparison
+- Estimation
+- Rounding
+
+CHAPTER 2:
+Tambah dan Tolak.
+
+Games:
+
+- Pasar kampung arithmetic
+- Fruit basket addition
+- Object subtraction
+- Number sentence builder
+- Missing number puzzles
+- Word problem adventures
+
+CHAPTER 3:
+Pecahan.
+
+Games:
+
+- Divide a roti
+- Slice watermelon
+- Partition cakes
+- Match equivalent visual portions
+
+CHAPTER 4:
+Wang.
+
+Games:
+
+- Malaysian currency identification
+- Virtual shop
+- Payment selection
+- Saving activities
+- Spending decisions
+
+CHAPTER 5:
+Masa dan Waktu.
+
+Games:
+
+- Interactive analog clock
+- Drag clock hands
+- Daily routine sequencing
+- Calendar activities
+- Days and months
+
+CHAPTER 6:
+Panjang, Jisim dan Isi Padu Cecair.
+
+Games:
+
+- Non-standard unit measurement
+- Interactive balance scales
+- Container filling
+- Object comparison
+
+CHAPTER 7:
+Ruang.
+
+Games:
+
+- Rotate 3D shapes
+- Identify faces
+- Count vertices
+- Shape matching
+- Pattern construction
+- Build structures
+
+CHAPTER 8:
+Data.
+
+Games:
+
+- Collect objects
+- Classify objects
+- Construct pictographs
+- Interpret data
+
+Use deterministic mathematical answer validation.
+
+Never depend on AI for simple arithmetic correctness.
+
+==================================================
+19. SAINS — MAKMAL ALAM
+==================================================
+
+Implement all ten chapters.
+
+1. Kemahiran Saintifik.
+2. Peraturan Bilik Sains.
+3. Benda Hidup dan Benda Bukan Hidup.
+4. Manusia.
+5. Haiwan.
+6. Tumbuh-tumbuhan.
+7. Magnet.
+8. Penyerapan.
+9. Bumi.
+10. Asas Binaan.
+
+Implement:
+
+- Interactive observation laboratory
+- Object classification engine
+- Laboratory safety scenarios
+- Five senses explorer
+- Interactive animal models
+- Interactive plant models
+- Magnet simulation
+- Attraction and repulsion
+- Water absorption simulator
+- Soil comparison
+- Interactive Malaysian landscape
+- 3D construction workshop
+
+Examples:
+
+When water is poured onto a material, demonstrate
+its appropriate absorption behavior.
+
+When a magnet approaches an object, respond
+according to the object's material.
+
+When students select a plant part, highlight it
+and explain its function.
+
+Simulations must be educationally accurate.
+
+==================================================
+20. BAHASA MELAYU — PUSTAKA RIMBA
+==================================================
+
+Implement all supplied modules:
+
+- Mendengar dan Bertutur
+- Membaca
+- Menulis
+- Seni Bahasa
+- Tatabahasa
+- Learning themes
+
+Activities:
+
+- Letter discovery
+- Syllable construction
+- Word construction
+- Picture matching
+- Interactive phonics
+- Sentence arrangement
+- Interactive storybooks
+- Audio comprehension
+- Letter tracing
+- Word tracing
+- Guided writing
+- Imlak
+- Grammar challenges
+- Story sequencing
+- Pantun activities
+- Sajak activities
+
+Include every supplied grammatical category.
+
+Use natural Malaysian Bahasa Melayu.
+
+Do not use Indonesian vocabulary as a substitute.
+
+Use original stories involving Malaysian settings.
+
+==================================================
+21. ENGLISH — ADVENTURE BAY
+==================================================
+
+Implement:
+
+- Listening
+- Speaking
+- Reading
+- Writing
+- Language Arts
+- Vocabulary
+- Basic Grammar
+
+Activities:
+
+- Interactive phonics
+- Picture vocabulary
+- Listening missions
+- Word matching
+- Letter formation
+- Spelling challenges
+- Sentence builder
+- Illustrated stories
+- NPC conversations
+- Role-play adventures
+- Grammar puzzles
+
+Example:
+
+The student visits a virtual fruit stall.
+
+NPC asks:
+
+"What fruit would you like?"
+
+The student selects or constructs a suitable reply.
+
+Provide bilingual guidance where appropriate.
+
+Preserve English-language learning objectives.
+
+==================================================
+22. PENDIDIKAN ISLAM — TAMAN HARMONI
+==================================================
+
+Implement all seven supplied fields:
+
+1. Al-Quran.
+2. Hadis.
+3. Akidah.
+4. Ibadah.
+5. Sirah.
+6. Adab.
+7. Jawi.
+
+Activities:
+
+- Hijaiyah recognition
+- Letter tracing
+- Harakat identification
+- Verified Quran recitation
+- Guided memorization
+- Hadis comprehension
+- Akidah learning activities
+- Wuduk sequence simulator
+- Cleanliness activities
+- Sirah timelines
+- Adab scenarios
+- Jawi letter joining
+- Jawi word construction
+- Jawi sentence construction
+
+Correctly support right-to-left scripts.
+
+Do not visually depict Allah or prophets.
+
+Do not invent Quranic verses, Hadis or religious rulings.
+
+Use verified sources.
+
+Mark religious content as requiring qualified review
+until that review has occurred.
+
+==================================================
+23. PENDIDIKAN MORAL
+==================================================
+
+Implement all 14 universal values under:
+
+Diri Saya.
+
+Create interactive community scenarios.
+
+Examples:
+
+- Helping another person
+- Returning lost objects
+- Showing respect
+- Taking turns
+- Sharing
+- Telling the truth
+- Protecting the environment
+
+Use animated NPCs and environmental consequences.
+
+Reward understanding and reflection.
+
+Do not shame children.
+
+Do not use game scores as definitive judgments
+of a learner's character.
+
+==================================================
+24. PENDIDIKAN SENI VISUAL
+==================================================
+
+Create a fully functional digital creative studio.
+
+Tools:
+
+- Pencil
+- Paintbrush
+- Color palette
+- Eraser
+- Shapes
+- Lines
+- Fill
+- Undo
+- Redo
+- Stamps
+- Collage tools
+
+Implement:
+
+- Interactive drawing
+- Painting
+- Pattern generation
+- Collage creation
+- Batik designer
+- Boneka creation
+- Mobail construction
+- 3D model assembly
+- Traditional craft discovery
+
+Save original student artwork.
+
+Create a personal gallery.
+
+Display completed artwork inside the
+student's personal village.
+
+Avoid arbitrary scoring of artistic quality.
+
+==================================================
+25. PENDIDIKAN MUZIK
+==================================================
+
+Create a real interactive music pavilion.
+
+Use Web Audio API.
+
+Implement:
+
+- Virtual kompang
+- Virtual percussion
+- Virtual xylophone
+- Beat tapping
+- Rhythm matching
+- Tempo identification
+- Pitch identification
+- Dynamic sound comparison
+- Musical movement
+- Original rhythm creation
+
+Music interactions must produce actual sound.
+
+Do not implement silent decorative instruments.
+
+Use original or appropriately licensed audio.
+
+==================================================
+26. PJPK — ARENA WIRA CERGAS
+==================================================
+
+Implement both components.
+
+PENDIDIKAN JASMANI:
+
+Animated 3D character demonstrations:
+
+- Walking
+- Running
+- Jumping
+- Stretching
+- Balancing
+- Throwing
+- Catching
+- Movement sequences
+
+Provide appropriate offline movement activities
+with adult supervision where needed.
+
+PENDIDIKAN KESIHATAN:
+
+- Personal hygiene
+- Hand washing
+- Food selection
+- Emotional awareness
+- Family relationships
+- Social relationships
+- Personal safety
+- Safe and unsafe touch
+- Disease prevention
+- Substance awareness
+- Basic first aid
+
+Use age-appropriate educational scenarios.
+
+Do not require continuous camera monitoring.
+
+Distinguish digital knowledge assessments
+from real-world physical performance.
+
+==================================================
+27. SIX ADDITIONAL LANGUAGE SUBJECTS
+==================================================
+
+Implement:
+
+- Bahasa Arab
+- Bahasa Cina SK
+- Bahasa Tamil SK
+- Bahasa Iban
+- Bahasa Kadazandusun
+- Bahasa Semai
+
+Use a reusable multilingual language engine.
+
+Activities:
+
+- Listen and repeat
+- Picture vocabulary
+- Number recognition
+- Letter recognition
+- Letter tracing
+- Word construction
+- Audio matching
+- Simple conversations
+- Cultural discovery
+
+Support Unicode.
+
+Support appropriate fonts and script direction.
+
+Use verified pronunciation and vocabulary.
+
+Do not invent indigenous language translations.
+
+Flag unverified linguistic content for native-speaker
+or qualified educator review.
+
+==================================================
+28. REUSABLE GAME ENGINE CATALOG
+==================================================
+
+Implement reusable, testable activity engines.
+
+MATHEMATICS:
+
+01. ObjectCounterGame
+02. NumberLineGame
+03. PlaceValueGame
+04. ArithmeticGame
+05. FractionSimulator
+06. MoneyShopGame
+07. AnalogClockGame
+08. MeasurementSimulator
+09. Geometry3DGame
+10. PictographBuilder
+
+SCIENCE:
+
+11. ObjectClassificationGame
+12. MagnetSimulator
+13. AbsorptionSimulator
+14. PlantExplorer3D
+15. AnimalExplorer3D
+16. BodyExplorer3D
+17. ConstructionGame3D
+
+LANGUAGES:
+
+18. LetterTracingGame
+19. SyllableBuilder
+20. WordBuilder
+21. SentenceBuilder
+22. PictureMatchingGame
+23. ListeningGame
+24. StorySequenceGame
+25. DialogueAdventure
+
+OTHER EDUCATIONAL ENGINES:
+
+26. MoralDecisionGame
+27. DrawingStudio
+28. BatikPatternDesigner
+29. RhythmGame
+30. VirtualInstrument
+31. MovementDemonstrator
+32. SafetyScenarioGame
+33. MemoryMatchingGame
+34. DragAndDropGame
+35. AssessmentEngine
+
+Each engine accepts curriculum-specific configuration.
+
+Every engine must implement:
+
+- Start
+- Instructions
+- Difficulty
+- Interaction
+- Validation
+- Hints
+- Feedback
+- Completion
+- Reset
+- Result reporting
+
+No duplicated game code per subtopic.
+
+==================================================
+29. LEARNING GAMEPLAY LOOP
+==================================================
+
+For every learning mission:
+
+INTRODUCTION
+  -> Interactive demonstration
+  -> Guided practice
+  -> Mini-game
+  -> Independent practice
+  -> Assessment
+  -> Learning result
+  -> Reward
+  -> Village progression
+
+Make learning itself the core game mechanic.
+
+Do not present unrelated mini-games as
+educational activities.
+
+Required feedback:
+
+- Correct answer celebration
+- Gentle incorrect answer guidance
+- Visual explanation
+- Retry
+- Additional hint
+- Progress update
+
+Avoid mandatory timers for young learners.
+
+==================================================
+30. ADAPTIVE LEARNING
+==================================================
+
+Track each subtopic independently.
+
+Record:
+
+- Attempts
+- Accuracy
+- Incorrect answers
+- Hint usage
+- Learning duration
+- Recent performance
+- Assessment results
+- Completed practice
+
+If the student struggles:
+
+- Provide simpler examples
+- Reduce difficulty
+- Offer more visual hints
+- Recommend prerequisite lessons
+- Generate additional practice
+
+If the student progresses:
+
+- Increase appropriate challenge
+- Recommend the next lesson
+- Award mastery recognition
+
+Use internal mastery estimates.
+
+Do not represent these estimates as official
+teacher-assessed PBD results.
+
+==================================================
+31. REWARD SYSTEM
+==================================================
+
+Implement:
+
+- XP
+- Knowledge stars
+- Village coins
+- Achievement badges
+- Avatar levels
+- Village levels
+- Companion accessories
+- Avatar clothing
+- Decorative objects
+- Building upgrades
+- Subject mastery trophies
+
+Rewards must correspond to actual learning events.
+
+Prevent duplicate rewards caused by:
+
+- Reloading a page
+- Duplicate API requests
+- Replaying a completion animation
+- Repeated submission of the same result
+
+Use idempotent reward transactions.
+
+Cosmetic rewards must not block access to
+essential learning content.
+
+No gambling.
+
+No paid loot boxes.
+
+No combat.
+
+No forced waiting timers.
+
+No punishment for missing a day.
+
+==================================================
+32. VILLAGE CONSTRUCTION SYSTEM
+==================================================
+
+Implement functional village-building mechanics.
+
+Features:
+
+- Building inventory
+- Construction plots
+- Building preview
+- Object rotation
+- Valid placement
+- Collision checking
+- Building upgrades
+- Decoration placement
+- Object relocation
+- Persistent village state
+
+Construction animations:
+
+1. Foundation appears.
+2. Walls rise.
+3. Roof assembles.
+4. Decorations appear.
+5. Lanterns illuminate.
+6. Vegetation grows.
+7. Reward particles animate.
+8. Avatar celebrates.
+
+Use existing Stitch construction templates
+as visual references.
+
+Progression examples:
+
+Complete number chapter:
+Unlock the mathematics tower upgrade.
+
+Complete reading chapter:
+Expand the library.
+
+Complete science activities:
+Unlock laboratory decorations.
+
+Complete visual arts:
+Display artwork in the village gallery.
+
+Learning achievements must create meaningful
+visible changes to the student's village.
+
+==================================================
+33. GAME HUD AND MICROINTERACTIONS
+==================================================
+
+Create reusable game-native HUD components:
+
+- Student avatar
+- Companion
+- XP meter
+- Knowledge stars
+- Village coins
+- Chapter progress
+- Achievement notifications
+- Mission objectives
+- Audio controls
+- Settings
+- Parent access
+
+Animation examples:
+
+- XP particles flying into progress meters
+- Coin collection
+- Star bursts
+- Treasure opening
+- Button squash and stretch
+- Character celebration
+- Building construction
+- Camera fly-through
+- Environmental transitions
+
+Preserve tactile Stitch button styling.
+
+Animations communicate state changes and
+learning feedback.
+
+==================================================
+34. AUDIO ENGINE
+==================================================
+
+Implement real audio functionality.
+
+Support:
+
+- Bahasa Melayu narration
+- English narration
+- Verified pronunciation
+- Subject-specific audio
+- Original sound effects
+- Optional background music
+
+Provide independent controls:
+
+- Master volume
+- Narration volume
+- Sound effects
+- Background music
+- Mute
+
+If suitable narration is unavailable, preserve
+text instructions and state the limitation.
+
+Do not simulate audio playback by changing
+an icon only.
+
+==================================================
+35. OPTIONAL GEMINI AI TUTOR
+==================================================
+
+Implement an optional curriculum-grounded tutor.
+
+Use verified lesson context.
+
+Permitted learning functions:
+
+- Explain current concept.
+- Provide progressive hints.
+- Explain mistakes.
+- Suggest practice.
+- Recommend revision.
+
+Use deterministic and pre-written explanations first.
+
+Only request AI assistance when needed.
+
+Do not regenerate the entire curriculum for
+every learner request.
+
+Use server-side API credentials.
+
+Never expose a Gemini API key in frontend code.
+
+Core learning, gameplay and assessment must
+continue working when AI is unavailable.
+
+Do not provide children with an unrestricted
+general-purpose chatbot.
+
+==================================================
+36. DATA PERSISTENCE
+==================================================
+
+Persist:
+
+- Parent account
+- Learner profile
+- Avatar configuration
+- Selected companion
+- Subject enrollment
+- Lesson progress
+- Subtopic mastery
+- Activity results
+- Assessment history
+- XP
+- Coins
+- Stars
+- Inventory
+- Achievements
+- Village objects
+- Village upgrades
+- Saved artwork
+- Settings
+
+Use stable identifiers.
+
+Support data migrations.
+
+Create synchronization adapters so the
+application can later connect to a Laravel API.
+
+Prevent cross-account data access.
+
+Offline activity results must synchronize
+without creating duplicate rewards.
+
+==================================================
+37. PARENT DASHBOARD
+==================================================
+
+Create a parent interface matching the
+Kampung Wira design system.
+
+Use an adult-friendly variant of the visual identity.
+
+Display actual:
+
+- Learning duration
+- Subject progress
+- Curriculum coverage
+- Chapter completion
+- Subtopic mastery
+- Assessment performance
+- Recent activities
+- Common mistakes
+- Strengths
+- Topics requiring revision
+
+Parent controls:
+
+- Learner profiles
+- Subject enrollment
+- Additional languages
+- Graphics settings
+- Audio settings
+- Accessibility
+- Learning preferences
+- Account management
+
+Do not fabricate charts or performance values.
+
+==================================================
+38. RESPONSIVE DESIGN
+==================================================
+
+Support:
+
+- Desktop
+- Tablet
+- Mobile
+- Touchscreen
+- Mouse
+- Keyboard
+
+Target sizes:
+
+Desktop: 1440 x 900.
+Tablet: 1024 x 768.
+Mobile: 390 x 844.
+
+Support affordable Android devices.
+
+Use:
+
+- Large touch targets
+- Readable text
+- Simple instructions
+- Audio guidance
+- High contrast
+- Keyboard navigation
+- Reduced-motion mode
+- Accessible alternatives to dragging
+
+Never require WebGL as the only way to access
+essential educational content.
+
+Provide functional 2D fallback activities.
+
+==================================================
+39. PERFORMANCE OPTIMIZATION
+==================================================
+
+The original archive contains approximately
+67.6 MB of extracted files.
+
+Do not ship every original source asset in
+the production build.
+
+Optimize:
+
+- Raster images
+- Fonts
+- Three.js geometry
+- Audio assets
+- JavaScript bundles
+- CSS
+
+Convert suitable raster artwork to WebP.
+
+Preserve transparency.
+
+Use responsive image variants.
+
+Deduplicate assets by verified content hash.
+
+Remove unused fonts only after checking references.
+
+THREE.JS:
+
+- Lazy-loaded scenes
+- Instanced meshes
+- Adaptive pixel ratio
+- Geometry reuse
+- Material reuse
+- Texture atlases
+- GLB compression
+- KTX2 textures where available
+- Baked lighting
+- Limited real-time shadows
+- Level of detail
+- On-demand rendering
+- GPU resource disposal
+
+Provide graphics presets:
+
+Low.
+Medium.
+High.
+Ultra.
+
+Use 30 FPS as a low-end target and 60 FPS on
+capable devices, subject to real device testing.
+
+Only load the currently active subject scene.
+
+Do not load all 15 subject environments at startup.
+
+Do not use Tailwind's browser CDN in production.
+
+Do not include node_modules in exported ZIP files.
+
+==================================================
+40. CURRICULUM COVERAGE VALIDATOR
+==================================================
+
+Create an automated coverage validation script.
+
+Maintain a source inventory containing every
+supplied curriculum bullet point.
+
+For each item validate:
+
+- Subject exists.
+- Chapter exists.
+- Subtopic exists.
+- Learning objectives exist.
+- Lesson content exists.
+- Interactive demonstration exists.
+- Functional activity exists.
+- Assessment exists or approved alternative exists.
+- Feedback exists.
+- Progress integration exists.
+- Reward integration exists.
+- Route resolves.
+- Source status is recorded.
+
+Generate actual statistics:
+
+Total subjects.
+Total chapters.
+Total subtopics.
+Implemented lessons.
+Implemented demonstrations.
+Implemented mini-games.
+Implemented assessments.
+Missing items.
+Unverified mappings.
+
+Separate technical implementation coverage from
+official curriculum and educator verification coverage.
+
+The complete supplied curriculum requires
+100% technical representation.
+
+Do not fabricate verification status.
+
+==================================================
+41. SOURCE VERIFICATION
+==================================================
+
+Use the following curriculum references:
+
+Official KPM curriculum and alignment documents.
+
+KSSR Semakan 2017.
+
+Applicable Dokumen Penjajaran Kurikulum Edisi 3.
+
+DSKP Tahun 1 Sekolah Kebangsaan.
+
+Reference collections:
+
+https://sites.google.com/moe-dl.edu.my/dskpskfp1/tahun-1
+
+https://sites.google.com/moe-dl.edu.my/sigujin/lain-lain/dskp/dskp-sekolah-rendah/dskp-sk-tahun-1
+
+https://www.moe.gov.my/kurikulum-persekolahan-2027
+
+If source access is unavailable:
+
+- Keep the supplied curriculum inventory.
+- Do not fabricate official standard codes.
+- Mark affected mappings as unverified.
+- Record required educator review.
+
+Do not reproduce entire commercial textbooks.
+
+Create original learning materials.
+
+==================================================
+42. TESTING REQUIREMENTS
+==================================================
+
+Implement unit tests for:
+
+- Arithmetic validation
+- Assessment scoring
+- Curriculum coverage
+- Mastery calculation
+- Reward transactions
+- Inventory
+- Building placement
+- Progress persistence
+
+Implement integration tests for:
+
+- Authentication
+- Registration
+- Learner onboarding
+- Avatar customization
+- Companion selection
+- Subject navigation
+- Lesson completion
+- Mini-game completion
+- Assessment completion
+- Reward delivery
+- Village upgrades
+- Parent reporting
+
+Implement browser tests for:
+
+- Main application routes
+- All subject routes
+- All chapter routes
+- All subtopic routes
+- Mobile responsiveness
+- WebGL fallback
+- Keyboard navigation
+- Offline behavior
+- State restoration after reload
+
+Check every existing Stitch button.
+
+Detect missing assets and invalid routes.
+
+Resolve application-breaking console errors.
+
+Run TypeScript checks.
+
+Run production build.
+
+Never report tests as passed unless actually executed.
+
+==================================================
+43. REQUIRED DOCUMENTATION
+==================================================
+
+Create:
+
+README.md
+
+TEMPLATE_MAPPING.md
+
+IMPLEMENTATION_PROGRESS.md
+
+CURRICULUM_INVENTORY.json
+
+CURRICULUM_COVERAGE.md
+
+GAME_ENGINE_CATALOG.md
+
+CONTENT_VERIFICATION.md
+
+API_CONTRACT.md
+
+ASSET_OPTIMIZATION.md
+
+TEST_REPORT.md
+
+Document actual implementation status.
+
+Do not use documentation as a substitute
+for implementing functionality.
+
+==================================================
+44. IMPLEMENTATION PHASES
+==================================================
+
+PHASE 01:
+Inspect merged.zip and map all 41 Stitch templates.
+
+PHASE 02:
+Establish reusable design system and application shell.
+
+PHASE 03:
+Implement routes, authentication and learner profiles.
+
+PHASE 04:
+Import the complete 15-subject curriculum inventory.
+
+PHASE 05:
+Implement 3D avatar and companion systems.
+
+PHASE 06:
+Implement real-time village and construction systems.
+
+PHASE 07:
+Implement reusable mathematics game engines.
+
+PHASE 08:
+Implement complete mathematics curriculum.
+
+PHASE 09:
+Implement complete science curriculum.
+
+PHASE 10:
+Implement Bahasa Melayu and English.
+
+PHASE 11:
+Implement Pendidikan Islam and Pendidikan Moral.
+
+PHASE 12:
+Implement Pendidikan Seni Visual and Pendidikan Muzik.
+
+PHASE 13:
+Implement PJPK.
+
+PHASE 14:
+Implement all six additional language subjects.
+
+PHASE 15:
+Integrate assessment and adaptive learning.
+
+PHASE 16:
+Integrate rewards and village progression.
+
+PHASE 17:
+Implement parent dashboard.
+
+PHASE 18:
+Implement offline support and persistence.
+
+PHASE 19:
+Optimize assets and Three.js performance.
+
+PHASE 20:
+Run full curriculum validation.
+
+PHASE 21:
+Run automated and browser testing.
+
+PHASE 22:
+Produce production build and deployment instructions.
+
+Complete all phases incrementally.
+
+Update IMPLEMENTATION_PROGRESS.md after each phase.
+
+Keep the application buildable throughout development.
+
+Do not restart the project between phases.
+
+When resuming, inspect the existing progress file
+and continue from the first incomplete task.
+
+==================================================
+45. DEFINITION OF DONE
+==================================================
+
+The application is complete only when:
+
+- All 41 original templates are accounted for.
+- The original design system is preserved.
+- All 15 supplied subjects are represented.
+- Every supplied subtopic has learning content.
+- Every supplied subtopic has functional interaction.
+- Appropriate assessments are implemented.
+- Real avatar customization works.
+- Real Three.js village navigation works.
+- Companion selection persists.
+- Rewards are calculated correctly.
+- Village development persists.
+- Parent reports contain actual data.
+- Essential functionality works without AI.
+- Accessibility fallbacks work.
+- Production build succeeds.
+- Test results are documented.
+- Missing curriculum content is explicitly reported.
+- Unverified educational content is clearly identified.
+
+No fake completion percentages.
+
+No disconnected buttons.
+
+No generic replacement templates.
+
+No placeholder-only curriculum.
+
+No static images presented as actual 3D scenes.
+
+No invented official KPM references.
+
+==================================================
+FINAL DIRECTIVE
+==================================================
+
+This application should feel like a premium Malaysian
+educational adventure game produced by an international
+mobile game studio.
+
+Not a website with educational cards.
+
+Not a quiz application with decorative 3D images.
+
+Not another Stitch prototype.
+
+Create a living Malaysian village.
+
+Create real interactive educational experiences.
+
+Create persistent characters and progression.
+
+Make learning the mechanism that develops the
+student's world.
+
+Implement every item in APPENDIX A:
+MANDATORY YEAR 1 CURRICULUM INVENTORY.
+
+Begin implementation immediately.
+
+Do not stop at planning.
+
+Do not merely summarize the requirements.
+
+==================================================
+APPENDIX A
+MANDATORY YEAR 1 CURRICULUM INVENTORY
+==================================================
+
+Use the complete 15-subject curriculum supplied
+by the project owner.
+
+Every listed chapter, module, topic and subtopic
+is a mandatory curriculum inventory item.
+
+Import the complete inventory into
+CURRICULUM_INVENTORY.json before generating lessons.
+
+Do not truncate, summarize or silently omit items.

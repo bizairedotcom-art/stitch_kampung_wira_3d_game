@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="woodBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9A4E1A" />
+      <stop offset="100%" stop-color="#5C240A" />
+    </linearGradient>
+    <linearGradient id="emeraldShield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D9668" />
+      <stop offset="100%" stop-color="#005236" />
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD97D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#woodBg)" />
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="url(#goldTrim)" stroke-width="14" />
+  <path d="M256 76 L402 128 V250 C402 346 336 410 256 438 C176 410 110 346 110 250 V128 Z" fill="url(#emeraldShield)" stroke="url(#goldTrim)" stroke-width="12" />
+  <path d="M256 132 C292 162 342 166 364 196 C340 218 296 226 256 260 C216 226 172 218 148 196 C170 166 220 162 256 132 Z" fill="none" stroke="url(#goldTrim)" stroke-width="8" />
+  <path d="M180 282 C206 322 306 322 332 282" fill="none" stroke="url(#goldTrim)" stroke-width="10" stroke-linecap="round" />
+  <polygon points="256,162 272,202 314,205 281,232 292,272 256,249 220,272 231,232 198,205 240,202" fill="#FFD97D" stroke="#B45309" stroke-width="4" />
+</svg>

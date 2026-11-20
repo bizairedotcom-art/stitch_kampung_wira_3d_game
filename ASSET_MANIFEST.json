@@ -1,0 +1,489 @@
+{
+  "generatedAt": "2026-11-20T11:32:13.474Z",
+  "totals": {
+    "stitchImages": 91,
+    "generatedImages": 7,
+    "localFonts": 15,
+    "pwaIcons": 5
+  },
+  "pwaIcons": [
+    {
+      "path": "/icon.svg",
+      "bytes": 1509
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "bytes": 1371
+    },
+    {
+      "path": "/pwa-192x192.png",
+      "bytes": 1491
+    },
+    {
+      "path": "/pwa-512x512.png",
+      "bytes": 6246
+    },
+    {
+      "path": "/pwa-maskable-512x512.png",
+      "bytes": 6323
+    }
+  ],
+  "generated": [
+    {
+      "path": "/assets/generated/building_arena_wira_1795173003436.jpg",
+      "bytes": 1158163
+    },
+    {
+      "path": "/assets/generated/building_pentas_irama_1795173003999.jpg",
+      "bytes": 993081
+    },
+    {
+      "path": "/assets/generated/companion_badak_1795173003810.jpg",
+      "bytes": 694019
+    },
+    {
+      "path": "/assets/generated/companion_enggang_1795172998389.jpg",
+      "bytes": 718643
+    },
+    {
+      "path": "/assets/generated/companion_kancil_1795172998081.jpg",
+      "bytes": 696051
+    },
+    {
+      "path": "/assets/generated/companion_utan_1795172999257.jpg",
+      "bytes": 699627
+    },
+    {
+      "path": "/assets/generated/kampung_wira_icon_1795173002310.jpg",
+      "bytes": 834503
+    }
+  ],
+  "fonts": [
+    {
+      "path": "/fonts/font-0ee86126fb55b4c6.ttf",
+      "bytes": 63412
+    },
+    {
+      "path": "/fonts/font-31c16d4d9c6d63a9.ttf",
+      "bytes": 175196
+    },
+    {
+      "path": "/fonts/font-4db42137a988032e.ttf",
+      "bytes": 175628
+    },
+    {
+      "path": "/fonts/font-536b4af8c047a76e.ttf",
+      "bytes": 175524
+    },
+    {
+      "path": "/fonts/font-882a2a9896492362.ttf",
+      "bytes": 1003432
+    },
+    {
+      "path": "/fonts/font-9c0e6cce7702efbb.ttf",
+      "bytes": 63372
+    },
+    {
+      "path": "/fonts/font-b3c897d30d155818.ttf",
+      "bytes": 976608
+    },
+    {
+      "path": "/fonts/font-b6e77dffe97d26af.ttf",
+      "bytes": 977752
+    },
+    {
+      "path": "/fonts/font-bb66eaff50365bf7.ttf",
+      "bytes": 976904
+    },
+    {
+      "path": "/fonts/font-bbe0fcf86dca84b4.ttf",
+      "bytes": 975480
+    },
+    {
+      "path": "/fonts/font-cbf4f5937e04d9a0.ttf",
+      "bytes": 63336
+    },
+    {
+      "path": "/fonts/font-dc4fd72872de44d4.ttf",
+      "bytes": 1004996
+    },
+    {
+      "path": "/fonts/font-f2374e6da2f0a833.ttf",
+      "bytes": 63404
+    },
+    {
+      "path": "/fonts/font-f3dbce7be994996a.ttf",
+      "bytes": 175600
+    },
+    {
+      "path": "/fonts/font-fa976fefac0021cc.ttf",
+      "bytes": 1005404
+    }
+  ],
+  "stitch": [
+    {
+      "path": "/assets/stitch/remote-053ac81ebff6583f.jpg",
+      "bytes": 41123
+    },
+    {
+      "path": "/assets/stitch/remote-071da4687061a4f7.jpg",
+      "bytes": 57202
+    },
+    {
+      "path": "/assets/stitch/remote-07a7e745a33c46d5.jpg",
+      "bytes": 80758
+    },
+    {
+      "path": "/assets/stitch/remote-08bf31e599c7655c.jpg",
+      "bytes": 21179
+    },
+    {
+      "path": "/assets/stitch/remote-0d65ca83cd7512e7.jpg",
+      "bytes": 75536
+    },
+    {
+      "path": "/assets/stitch/remote-131d8c905b1a4aea.jpg",
+      "bytes": 68206
+    },
+    {
+      "path": "/assets/stitch/remote-14a862ca84f11389.jpg",
+      "bytes": 52998
+    },
+    {
+      "path": "/assets/stitch/remote-150a7bcbd6075de5.jpg",
+      "bytes": 67964
+    },
+    {
+      "path": "/assets/stitch/remote-161622a9400b6e75.jpg",
+      "bytes": 76541
+    },
+    {
+      "path": "/assets/stitch/remote-1f05cae17416ce64.jpg",
+      "bytes": 58284
+    },
+    {
+      "path": "/assets/stitch/remote-205498067fada154.jpg",
+      "bytes": 67822
+    },
+    {
+      "path": "/assets/stitch/remote-23fdccbede0c1fe6.jpg",
+      "bytes": 26313
+    },
+    {
+      "path": "/assets/stitch/remote-285072b40e76e62a.jpg",
+      "bytes": 54239
+    },
+    {
+      "path": "/assets/stitch/remote-2de584dda64fe911.jpg",
+      "bytes": 40822
+    },
+    {
+      "path": "/assets/stitch/remote-2fc9b8b76359aa19.jpg",
+      "bytes": 34133
+    },
+    {
+      "path": "/assets/stitch/remote-30477acb1c207194.jpg",
+      "bytes": 44452
+    },
+    {
+      "path": "/assets/stitch/remote-33244fd7c937c090.jpg",
+      "bytes": 54605
+    },
+    {
+      "path": "/assets/stitch/remote-347da634fa03f9b5.jpg",
+      "bytes": 36681
+    },
+    {
+      "path": "/assets/stitch/remote-35e5c48b4cad23c4.jpg",
+      "bytes": 42072
+    },
+    {
+      "path": "/assets/stitch/remote-3795ea46a42dc255.jpg",
+      "bytes": 55218
+    },
+    {
+      "path": "/assets/stitch/remote-3848bb06ad434b60.jpg",
+      "bytes": 76157
+    },
+    {
+      "path": "/assets/stitch/remote-384fee0693410aa9.jpg",
+      "bytes": 51040
+    },
+    {
+      "path": "/assets/stitch/remote-3e4c7af12718e3f1.jpg",
+      "bytes": 55915
+    },
+    {
+      "path": "/assets/stitch/remote-3fddd1d98e5f2784.jpg",
+      "bytes": 76555
+    },
+    {
+      "path": "/assets/stitch/remote-42919442f9dd9282.jpg",
+      "bytes": 37615
+    },
+    {
+      "path": "/assets/stitch/remote-43cc1a2f327f249f.jpg",
+      "bytes": 55887
+    },
+    {
+      "path": "/assets/stitch/remote-45e8f3af93c8e63f.jpg",
+      "bytes": 82323
+    },
+    {
+      "path": "/assets/stitch/remote-48a61a5b29d6bea6.jpg",
+      "bytes": 62159
+    },
+    {
+      "path": "/assets/stitch/remote-4a175926bc1d7ac2.jpg",
+      "bytes": 48801
+    },
+    {
+      "path": "/assets/stitch/remote-4be3223ac0ce6792.jpg",
+      "bytes": 67489
+    },
+    {
+      "path": "/assets/stitch/remote-4dc926e446183c07.jpg",
+      "bytes": 52935
+    },
+    {
+      "path": "/assets/stitch/remote-543264a6a2dfa23c.jpg",
+      "bytes": 40912
+    },
+    {
+      "path": "/assets/stitch/remote-55aaa255650be03c.jpg",
+      "bytes": 75176
+    },
+    {
+      "path": "/assets/stitch/remote-5a1e3dbadf5a2408.jpg",
+      "bytes": 54305
+    },
+    {
+      "path": "/assets/stitch/remote-5cef92831caa4cc0.jpg",
+      "bytes": 87505
+    },
+    {
+      "path": "/assets/stitch/remote-5d88e2f1b6e9f276.jpg",
+      "bytes": 84315
+    },
+    {
+      "path": "/assets/stitch/remote-5edda7facba40f96.jpg",
+      "bytes": 65269
+    },
+    {
+      "path": "/assets/stitch/remote-60edadef9bb99575.jpg",
+      "bytes": 35452
+    },
+    {
+      "path": "/assets/stitch/remote-646325e079ef8c04.jpg",
+      "bytes": 60997
+    },
+    {
+      "path": "/assets/stitch/remote-6ab42d5fd0163a01.jpg",
+      "bytes": 52040
+    },
+    {
+      "path": "/assets/stitch/remote-6af2cb52d763a210.jpg",
+      "bytes": 54496
+    },
+    {
+      "path": "/assets/stitch/remote-6dd4fa043ddb674c.jpg",
+      "bytes": 91107
+    },
+    {
+      "path": "/assets/stitch/remote-713843740e28357d.jpg",
+      "bytes": 81243
+    },
+    {
+      "path": "/assets/stitch/remote-7245d20bf72bdfba.jpg",
+      "bytes": 94652
+    },
+    {
+      "path": "/assets/stitch/remote-72f7c78e078956a1.jpg",
+      "bytes": 57026
+    },
+    {
+      "path": "/assets/stitch/remote-7d36b896161b78ad.jpg",
+      "bytes": 88135
+    },
+    {
+      "path": "/assets/stitch/remote-81d562be28aa9ac3.jpg",
+      "bytes": 92034
+    },
+    {
+      "path": "/assets/stitch/remote-82f9e5573b3aea0c.jpg",
+      "bytes": 46650
+    },
+    {
+      "path": "/assets/stitch/remote-876b4281e6f17e22.jpg",
+      "bytes": 70784
+    },
+    {
+      "path": "/assets/stitch/remote-899fe20b2befc6ac.jpg",
+      "bytes": 71935
+    },
+    {
+      "path": "/assets/stitch/remote-8a11cc9ba83a496f.jpg",
+      "bytes": 56170
+    },
+    {
+      "path": "/assets/stitch/remote-8c2dbbcbca4e3d2e.jpg",
+      "bytes": 59885
+    },
+    {
+      "path": "/assets/stitch/remote-9511814ae2288784.jpg",
+      "bytes": 79269
+    },
+    {
+      "path": "/assets/stitch/remote-97431a6ae4d98258.jpg",
+      "bytes": 90194
+    },
+    {
+      "path": "/assets/stitch/remote-9797801da5c99640.jpg",
+      "bytes": 73683
+    },
+    {
+      "path": "/assets/stitch/remote-9894c3bf633b9a92.jpg",
+      "bytes": 64655
+    },
+    {
+      "path": "/assets/stitch/remote-9983c072b1497411.jpg",
+      "bytes": 73586
+    },
+    {
+      "path": "/assets/stitch/remote-998401684d6fee6c.jpg",
+      "bytes": 70967
+    },
+    {
+      "path": "/assets/stitch/remote-9b25d19e5c0a8319.jpg",
+      "bytes": 82085
+    },
+    {
+      "path": "/assets/stitch/remote-aa881c6fc62f198f.jpg",
+      "bytes": 71563
+    },
+    {
+      "path": "/assets/stitch/remote-abf2be0e2b04db5d.jpg",
+      "bytes": 84612
+    },
+    {
+      "path": "/assets/stitch/remote-ac86a53565fea14a.jpg",
+      "bytes": 68801
+    },
+    {
+      "path": "/assets/stitch/remote-b2a35cd45ff19f1f.jpg",
+      "bytes": 46163
+    },
+    {
+      "path": "/assets/stitch/remote-b33750250df43597.jpg",
+      "bytes": 75312
+    },
+    {
+      "path": "/assets/stitch/remote-b5aa49c21c285ba5.jpg",
+      "bytes": 82643
+    },
+    {
+      "path": "/assets/stitch/remote-b61a77e63e8fa775.jpg",
+      "bytes": 53942
+    },
+    {
+      "path": "/assets/stitch/remote-b705206ceb7dd355.jpg",
+      "bytes": 33160
+    },
+    {
+      "path": "/assets/stitch/remote-bbb8f142b28399fa.jpg",
+      "bytes": 63618
+    },
+    {
+      "path": "/assets/stitch/remote-bbfd9b6d108fe925.jpg",
+      "bytes": 79596
+    },
+    {
+      "path": "/assets/stitch/remote-bcfdb58d016a3c86.jpg",
+      "bytes": 81898
+    },
+    {
+      "path": "/assets/stitch/remote-bfa4c2dae8bd05c2.jpg",
+      "bytes": 60753
+    },
+    {
+      "path": "/assets/stitch/remote-c5cf16d74c1658cf.jpg",
+      "bytes": 87449
+    },
+    {
+      "path": "/assets/stitch/remote-d07c2daece1e57bd.jpg",
+      "bytes": 59655
+    },
+    {
+      "path": "/assets/stitch/remote-d29d28ea77066a2c.jpg",
+      "bytes": 115357
+    },
+    {
+      "path": "/assets/stitch/remote-d3f374e19394f796.jpg",
+      "bytes": 34547
+    },
+    {
+      "path": "/assets/stitch/remote-d6efc30782e3c2e4.jpg",
+      "bytes": 48839
+    },
+    {
+      "path": "/assets/stitch/remote-dc19548e6a70ad4d.jpg",
+      "bytes": 72641
+    },
+    {
+      "path": "/assets/stitch/remote-dcdc7347bc0c4ab8.jpg",
+      "bytes": 76390
+    },
+    {
+      "path": "/assets/stitch/remote-dda4251af22c50be.jpg",
+      "bytes": 66327
+    },
+    {
+      "path": "/assets/stitch/remote-e00e5f4c5b2cca76.jpg",
+      "bytes": 61082
+    },
+    {
+      "path": "/assets/stitch/remote-e3a978ab04786be1.jpg",
+      "bytes": 56163
+    },
+    {
+      "path": "/assets/stitch/remote-e65a3d618640be3e.jpg",
+      "bytes": 81442
+    },
+    {
+      "path": "/assets/stitch/remote-e745f39baa5d0a56.jpg",
+      "bytes": 70987
+    },
+    {
+      "path": "/assets/stitch/remote-e774b7a8e9f8515a.jpg",
+      "bytes": 59492
+    },
+    {
+      "path": "/assets/stitch/remote-e80adb34a679c42b.jpg",
+      "bytes": 65989
+    },
+    {
+      "path": "/assets/stitch/remote-ecf9a38097664193.jpg",
+      "bytes": 58002
+    },
+    {
+      "path": "/assets/stitch/remote-f2f70e1e4191a38f.jpg",
+      "bytes": 63569
+    },
+    {
+      "path": "/assets/stitch/remote-f3c0cd939d458823.jpg",
+      "bytes": 77574
+    },
+    {
+      "path": "/assets/stitch/remote-f7cd671ccf357eb1.jpg",
+      "bytes": 63745
+    },
+    {
+      "path": "/assets/stitch/remote-f9c54ba6b6063fb7.jpg",
+      "bytes": 79882
+    },
+    {
+      "path": "/assets/stitch/remote-ffcacb23f1b6b795.jpg",
+      "bytes": 44517
+    }
+  ]
+}

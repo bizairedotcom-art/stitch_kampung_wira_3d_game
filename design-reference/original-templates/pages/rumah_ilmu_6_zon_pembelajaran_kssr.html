@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="ms"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link rel="stylesheet" href="../shared/css/fonts-9d46a30423de1499.css"/><link rel="stylesheet" href="../shared/css/fonts-e6154908c44c742b.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/>
+<link rel="stylesheet" href="../shared/css/fonts-85b88de6c1273900.css"/><script src="../shared/js/tailwindcdn.js"></script><script src="../shared/js/tailwind-config.js"></script>
+  <link rel="stylesheet" href="../shared/css/style-5deca57a5b4213e0.css"/><link rel="stylesheet" href="../shared/css/style-d08a966f1ccf70c9.css"/></head><body class="bg-surface text-on-surface select-none overflow-x-hidden font-body-md text-body-md"><header class="fixed top-0 w-full z-50 pt-safe"><div class="h-20 px-gutter-mobile flex items-center justify-between bg-surface/90 backdrop-blur-xl shadow-[0_4px_16px_rgba(69,26,3,0.18)]"><div class="flex items-center gap-space-xs"><img alt="Logo Kampung Wira" class="h-8 w-auto object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.25)]" src="../shared/images/remote-f7cd671ccf357eb1.jpg"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider leading-none">Tahun 1</span><span class="font-headline-sm text-headline-sm text-on-surface leading-tight drop-shadow-sm">Sahabat</span></div></div><div class="flex items-center gap-space-xs"><div class="flex items-center bg-surface-container-high rounded-full px-space-xs py-1 shadow-[inset_0_2px_4px_rgba(53,16,0,0.15)]"><span class="flex items-center justify-center w-6 h-6 rounded-full bg-secondary-container text-on-secondary shadow-md"><span class="material-symbols-outlined text-[16px]">star</span></span><span class="font-headline-sm text-headline-sm text-on-surface px-1.5">120</span></div><div class="flex items-center bg-surface-container-high rounded-full px-space-xs py-1 shadow-[inset_0_2px_4px_rgba(53,16,0,0.15)]"><span class="flex items-center justify-center w-6 h-6 rounded-full bg-primary-container text-on-primary-container shadow-md"><span class="material-symbols-outlined text-[16px]">diamond</span></span><span class="font-headline-sm text-headline-sm text-on-surface px-1.5">45</span></div><button aria-label="Suara Permainan" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-secondary shadow-[0_3px_0_#855300] active:translate-y-0.5 active:shadow-none transition-all" type="button"><span class="material-symbols-outlined text-headline-sm">volume_up</span></button><div class="relative flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_2px_6px_rgba(69,26,3,0.3)]" src="../shared/images/remote-646325e079ef8c04.jpg"/><span class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-primary flex items-center justify-center text-[9px] font-label-sm text-on-primary">1</span></div></div></div></header><main class="flex flex-col relative w-full pt-20 pb-28 min-h-screen bg-surface"><div class="flex flex-col w-full pb-8">
+<!-- Interactive Audio Speech Banner / Rimau Advice -->
+<div class="px-margin-mobile mb-4">
+<div class="relative bg-gradient-to-r from-surface-container-high to-surface-container rounded-xl p-space-sm shadow-[0_6px_0_#ffdbcc,0_12px_20px_rgba(53,16,0,0.08)] flex items-center gap-space-sm">
+<div class="relative flex-shrink-0">
+<div class="w-14 h-14 rounded-full bg-secondary-container flex items-center justify-center shadow-[inset_0_3px_0_rgba(255,255,255,0.4),0_4px_8px_rgba(104,64,0,0.3)]">
+<span class="material-symbols-outlined text-[32px] text-on-secondary" style="font-variation-settings: 'FILL' 1;">pets</span>
+</div>
+<span class="absolute -top-1 -right-1 flex h-4 w-4">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-4 w-4 bg-secondary-container"></span>
+</span>
+</div>
+<div class="flex-1 min-w-0 pr-1">
+<div class="flex items-center gap-1.5 mb-0.5">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Nasihat Rimau Wira</span>
+<span class="bg-primary/15 text-primary font-label-sm text-[10px] px-1.5 py-0.2 rounded-full font-bold">Audio Ada</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface line-clamp-2 leading-tight font-medium">
+          "Jom selesaikan cabaran <span class="font-bold text-primary">Menara Nombor</span> untuk bina jambatan buluh baharu!"
+        </p>
+</div>
+<button aria-label="Dengar Suara Rimau" class="flex-shrink-0 w-12 h-12 rounded-xl bg-secondary text-on-secondary shadow-[0_4px_0_#561f00] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center" id="voiceBtn">
+<span class="material-symbols-outlined text-[24px]">volume_up</span>
+</button>
+</div>
+</div>
+<!-- Hero Header & Stats Strip -->
+<div class="px-margin-mobile mb-5">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_16px_rgba(53,16,0,0.06)] relative overflow-hidden">
+<!-- Decorative Songket Ribbon Motif at top -->
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-secondary-container via-primary to-tertiary-container"></div>
+<div class="flex flex-col gap-1 mb-3 mt-1">
+<div class="inline-flex items-center gap-1.5 self-start bg-secondary-fixed/50 px-2.5 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px] text-secondary">explore</span>
+<span class="font-label-sm text-[11px] text-on-secondary-fixed uppercase tracking-wider">KSSR Semakan 2024</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight leading-snug">
+          Rumah Ilmu Kampung Wira
+        </h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Pilih Rumah Ilmu untuk mulakan cabaran pengembaraan Tahun 1!
+        </p>
+</div>
+<!-- Weekly Progress & Star Pill Counter -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<div class="bg-surface-container flex items-center gap-2 p-2 rounded-lg shadow-sm">
+<div class="w-8 h-8 rounded-lg bg-secondary-container text-on-secondary flex items-center justify-center flex-shrink-0 shadow-[0_2px_4px_rgba(104,64,0,0.25)]">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">hotel_class</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-sm text-[11px] text-on-surface-variant block leading-none">Bintang Ilmu</span>
+<span class="font-headline-sm text-[15px] text-on-surface font-extrabold leading-tight">120 Bintang</span>
+</div>
+</div>
+<div class="bg-surface-container flex items-center gap-2 p-2 rounded-lg shadow-sm">
+<div class="w-8 h-8 rounded-lg bg-primary-container text-on-primary flex items-center justify-center flex-shrink-0 shadow-[0_2px_4px_rgba(0,105,71,0.25)]">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">emoji_events</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-sm text-[11px] text-on-surface-variant block leading-none">Misi Mingguan</span>
+<span class="font-headline-sm text-[15px] text-on-surface font-extrabold leading-tight">8 / 18 Siap</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION: 6 Rumah Ilmu Modules -->
+<div class="px-margin-mobile flex flex-col gap-4">
+<!-- 1. MENARA NOMBOR (Matematik) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_6px_0_#ffdbcc,0_10px_20px_rgba(53,16,0,0.06)] relative overflow-hidden transition-transform duration-200">
+<div class="flex items-start justify-between gap-2 mb-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="bg-primary/10 text-primary font-label-sm text-[11px] px-2 py-0.5 rounded-full uppercase tracking-wider font-bold">
+            Matematik KSSR
+          </span>
+<span class="bg-surface-container-high text-on-surface-variant font-label-sm text-[11px] px-2 py-0.5 rounded-full">
+            Tahap 1
+          </span>
+</div>
+<div class="flex items-center gap-0.5 text-secondary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm mb-3">
+<!-- Visual 3D Building Image -->
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 relative bg-surface-container shadow-inner">
+<img class="w-full h-full object-cover" data-alt="A magical 3D floating bamboo and crystal tower rising above a tropical Malaysian rainforest river, geometric numbers 1 to 100 glowing like bright stars around the wooden pagoda roofs, stylized toyetic aesthetic with bright emerald and gold lighting, warm children game diorama." src="../shared/images/remote-998401684d6fee6c.jpg"/>
+<div class="absolute bottom-1 right-1 bg-primary text-on-primary text-[10px] font-label-sm px-1 rounded-sm shadow-sm">
+            Lv. 4
+          </div>
+</div>
+<!-- Info details -->
+<div class="flex-1 min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight mb-0.5">
+            Menara Nombor
+          </h2>
+<p class="font-body-sm text-[13px] text-on-surface-variant line-clamp-2 mb-1.5 leading-snug">
+            Nombor Hingga 100 • Tambah Cepat • Bentuk 3D Geometri
+          </p>
+<!-- Progress Bar -->
+<div class="w-full">
+<div class="flex justify-between items-center text-[11px] font-label-sm mb-1">
+<span class="text-on-surface-variant">Kemajuan: 4/6 Tingkat</span>
+<span class="text-primary font-bold">66%</span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-high rounded-full overflow-hidden p-0.5 shadow-inner">
+<div class="h-full bg-gradient-to-r from-primary to-primary-fixed-dim rounded-full shadow-sm" style="width: 66.6%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Reward Unlock Alert Badge -->
+<div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-primary text-[20px]">architecture</span>
+<span class="font-body-sm text-[12px] text-on-surface leading-tight">
+<strong class="text-primary font-bold">Ganjaran:</strong> Buka &amp; bina Jambatan Buluh Sungai Kristal
+        </span>
+</div>
+<!-- Action Button -->
+<button class="w-full h-14 bg-gradient-to-b from-primary to-primary-container text-on-primary rounded-xl font-label-lg text-label-lg shadow-[0_4px_0_#005236,0_8px_12px_rgba(0,105,71,0.25)] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[22px]">play_circle</span>
+<span>Masuk Menara (Mula Belajar)</span>
+</button>
+</div>
+<!-- 2. PUSTAKA RIMBA (Bahasa Melayu) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_6px_0_#ffdbcc,0_10px_20px_rgba(53,16,0,0.06)] relative overflow-hidden transition-transform duration-200">
+<div class="flex items-start justify-between gap-2 mb-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="bg-secondary/10 text-secondary font-label-sm text-[11px] px-2 py-0.5 rounded-full uppercase tracking-wider font-bold">
+            Bahasa Melayu
+          </span>
+<span class="bg-surface-container-high text-on-surface-variant font-label-sm text-[11px] px-2 py-0.5 rounded-full">
+            KSSR Semakan
+          </span>
+</div>
+<div class="flex items-center gap-0.5 text-secondary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm mb-3">
+<!-- Visual 3D Building Image -->
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 relative bg-surface-container shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Traditional elevated Malay Chengal wooden village library with intricate wood carvings, floating open storybooks with Hibiscus and Wau Bulan motifs, surrounded by giant gentle leafy trees and sunlit fireflies, warm playful diorama style." src="../shared/images/remote-3848bb06ad434b60.jpg"/>
+<div class="absolute bottom-1 right-1 bg-secondary text-on-secondary text-[10px] font-label-sm px-1 rounded-sm shadow-sm">
+            Bab 5
+          </div>
+</div>
+<div class="flex-1 min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight mb-0.5">
+            Pustaka Rimba
+          </h2>
+<p class="font-body-sm text-[13px] text-on-surface-variant line-clamp-2 mb-1.5 leading-snug">
+            Vokal &amp; Konsonan • Suku Kata Ceria • Dongeng Sang Kancil
+          </p>
+<div class="w-full">
+<div class="flex justify-between items-center text-[11px] font-label-sm mb-1">
+<span class="text-on-surface-variant">Kemajuan: 5/6 Bab</span>
+<span class="text-secondary font-bold">83%</span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-high rounded-full overflow-hidden p-0.5 shadow-inner">
+<div class="h-full bg-gradient-to-r from-secondary-container to-secondary rounded-full shadow-sm" style="width: 83.3%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-secondary text-[20px]">villa</span>
+<span class="font-body-sm text-[12px] text-on-surface leading-tight">
+<strong class="text-secondary font-bold">Ganjaran:</strong> Bina Wakaf Membaca &amp; Lampu Pelita
+        </span>
+</div>
+<button class="w-full h-14 bg-gradient-to-b from-secondary-container to-secondary text-on-secondary rounded-xl font-label-lg text-label-lg shadow-[0_4px_0_#653e00,0_8px_12px_rgba(133,83,0,0.25)] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[22px]">auto_stories</span>
+<span>Buka Buku Cerita</span>
+</button>
+</div>
+<!-- 3. ADVENTURE BAY (Bahasa Inggeris) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_6px_0_#ffdbcc,0_10px_20px_rgba(53,16,0,0.06)] relative overflow-hidden transition-transform duration-200">
+<div class="flex items-start justify-between gap-2 mb-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="bg-tertiary/10 text-tertiary font-label-sm text-[11px] px-2 py-0.5 rounded-full uppercase tracking-wider font-bold">
+            English CEFR Aligned
+          </span>
+<span class="bg-surface-container-high text-on-surface-variant font-label-sm text-[11px] px-2 py-0.5 rounded-full">
+            Year 1
+          </span>
+</div>
+<div class="flex items-center gap-0.5 text-secondary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm mb-3">
+<!-- Visual 3D Building Image -->
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 relative bg-surface-container shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Vibrant tropical river harbor with colorful wooden perahu boats and floating whimsical phonics hot air balloons, cute jungle animal crew, sky blue and bright turquoise water, stylized 3D game asset." src="../shared/images/remote-81d562be28aa9ac3.jpg"/>
+<div class="absolute bottom-1 right-1 bg-tertiary text-on-tertiary text-[10px] font-label-sm px-1 rounded-sm shadow-sm">
+            Mission 3
+          </div>
+</div>
+<div class="flex-1 min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight mb-0.5">
+            Adventure Bay
+          </h2>
+<p class="font-body-sm text-[13px] text-on-surface-variant line-clamp-2 mb-1.5 leading-snug">
+            Phonics Safari • Action Words • Family &amp; Friends in the Jungle
+          </p>
+<div class="w-full">
+<div class="flex justify-between items-center text-[11px] font-label-sm mb-1">
+<span class="text-on-surface-variant">Kemajuan: 3/6 Misi</span>
+<span class="text-tertiary font-bold">50%</span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-high rounded-full overflow-hidden p-0.5 shadow-inner">
+<div class="h-full bg-gradient-to-r from-tertiary to-tertiary-fixed rounded-full shadow-sm" style="width: 50%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-tertiary text-[20px]">sailing</span>
+<span class="font-body-sm text-[12px] text-on-surface leading-tight">
+<strong class="text-tertiary font-bold">Ganjaran:</strong> Buka Dermaga Bot Nelayan Ajaib
+        </span>
+</div>
+<button class="w-full h-14 bg-gradient-to-b from-tertiary to-tertiary-container text-on-tertiary rounded-xl font-label-lg text-label-lg shadow-[0_4px_0_#004e5c,0_8px_12px_rgba(0,101,119,0.25)] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[22px]">flight_takeoff</span>
+<span>Start English Quest</span>
+</button>
+</div>
+<!-- 4. MAKMAL ALAM (Sains) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_6px_0_#ffdbcc,0_10px_20px_rgba(53,16,0,0.06)] relative overflow-hidden transition-transform duration-200">
+<div class="flex items-start justify-between gap-2 mb-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="bg-primary/10 text-primary font-label-sm text-[11px] px-2 py-0.5 rounded-full uppercase tracking-wider font-bold">
+            Sains KSSR
+          </span>
+<span class="bg-surface-container-high text-on-surface-variant font-label-sm text-[11px] px-2 py-0.5 rounded-full">
+            Eksperimen
+          </span>
+</div>
+<div class="flex items-center gap-0.5 text-secondary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm mb-3">
+<!-- Visual 3D Building Image -->
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 relative bg-surface-container shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Futuristic glass and giant bamboo treehouse laboratory nested inside an ancient banyan tree, giant playful magnifying glasses, glowing butterflies and potted tropical carnivorous plants, cheerful cartoon 3D simulation style." src="../shared/images/remote-e65a3d618640be3e.jpg"/>
+<div class="absolute bottom-1 right-1 bg-primary text-on-primary text-[10px] font-label-sm px-1 rounded-sm shadow-sm">
+            Eks. 2
+          </div>
+</div>
+<div class="flex-1 min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight mb-0.5">
+            Makmal Alam
+          </h2>
+<p class="font-body-sm text-[13px] text-on-surface-variant line-clamp-2 mb-1.5 leading-snug">
+            Benda Hidup &amp; Bukan • 5 Deria • Haiwan Jinak Rimba
+          </p>
+<div class="w-full">
+<div class="flex justify-between items-center text-[11px] font-label-sm mb-1">
+<span class="text-on-surface-variant">Kemajuan: 2/6 Eksperimen</span>
+<span class="text-primary font-bold">33%</span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-high rounded-full overflow-hidden p-0.5 shadow-inner">
+<div class="h-full bg-gradient-to-r from-primary to-primary-fixed rounded-full shadow-sm" style="width: 33.3%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-primary text-[20px]">local_florist</span>
+<span class="font-body-sm text-[12px] text-on-surface leading-tight">
+<strong class="text-primary font-bold">Ganjaran:</strong> Taman Bunga Rama-Rama Tropika
+        </span>
+</div>
+<button class="w-full h-14 bg-gradient-to-b from-primary to-primary-container text-on-primary rounded-xl font-label-lg text-label-lg shadow-[0_4px_0_#005236,0_8px_12px_rgba(0,105,71,0.25)] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[22px]">science</span>
+<span>Eksperimen Alam</span>
+</button>
+</div>
+<!-- 5. TAMAN HARMONI (Pendidikan Islam / Pendidikan Moral) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_6px_0_#ffdbcc,0_10px_20px_rgba(53,16,0,0.06)] relative overflow-hidden transition-transform duration-200">
+<div class="flex items-start justify-between gap-2 mb-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="bg-secondary/15 text-secondary font-label-sm text-[11px] px-2 py-0.5 rounded-full uppercase tracking-wider font-bold">
+            P. Islam &amp; Moral
+          </span>
+<span class="bg-primary/10 text-primary font-label-sm text-[11px] px-2 py-0.5 rounded-full font-bold">
+            ⭐ SELESAI PENUH
+          </span>
+</div>
+<div class="flex items-center gap-0.5 text-secondary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm mb-3">
+<!-- Visual 3D Building Image -->
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 relative bg-surface-container shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Serene Malay sanctuary garden with a tiered lotus water fountain, golden geometric filigree arches, stepping stones in crystal clear water, warm peaceful morning golden sunlight, 3D animated video game style." src="../shared/images/remote-0d65ca83cd7512e7.jpg"/>
+<div class="absolute bottom-1 right-1 bg-secondary-container text-on-secondary text-[10px] font-label-sm px-1.5 rounded-sm shadow-sm font-bold">
+            TAMAT
+          </div>
+</div>
+<div class="flex-1 min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight mb-0.5">
+            Taman Harmoni
+          </h2>
+<p class="font-body-sm text-[13px] text-on-surface-variant line-clamp-2 mb-1.5 leading-snug">
+            Adab Ibu Bapa • Amalan Baik • Doa &amp; Budi Pekerti
+          </p>
+<div class="w-full">
+<div class="flex justify-between items-center text-[11px] font-label-sm mb-1">
+<span class="text-on-surface-variant">Kemajuan: 5/5 Misi Lengkap!</span>
+<span class="text-primary font-bold">100%</span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-high rounded-full overflow-hidden p-0.5 shadow-inner">
+<div class="h-full bg-gradient-to-r from-secondary-container via-primary to-primary-fixed-dim rounded-full shadow-sm" style="width: 100%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-secondary-container text-[20px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-body-sm text-[12px] text-on-surface leading-tight">
+<strong class="text-secondary font-bold">Status:</strong> Air Pancut Ketenangan Siap Dibina!
+        </span>
+</div>
+<button class="w-full h-14 bg-gradient-to-b from-surface-container-high to-surface-container text-on-surface rounded-xl font-label-lg text-label-lg shadow-[0_4px_0_#ffdbcc] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[22px] text-secondary">verified_user</span>
+<span>Semak Budi Pekerti</span>
+</button>
+</div>
+<!-- 6. BENGKEL BATIK (Pendidikan Seni Visual & Muzik) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_6px_0_#ffdbcc,0_10px_20px_rgba(53,16,0,0.06)] relative overflow-hidden transition-transform duration-200">
+<div class="flex items-start justify-between gap-2 mb-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="bg-secondary/10 text-secondary font-label-sm text-[11px] px-2 py-0.5 rounded-full uppercase tracking-wider font-bold">
+            Seni &amp; Muzik
+          </span>
+<span class="bg-surface-container-high text-on-surface-variant font-label-sm text-[11px] px-2 py-0.5 rounded-full">
+            Kreatif
+          </span>
+</div>
+<div class="flex items-center gap-0.5 text-secondary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+<span class="material-symbols-outlined text-[18px] text-outline-variant">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm mb-3">
+<!-- Visual 3D Building Image -->
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 relative bg-surface-container shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Open-air wooden artisan craft workshop with drying colorful batik canting fabrics with fern paku pakis patterns, traditional Kompang and Angklung instruments, colorful clay pots, sun-drenched warm Malaysian village studio diorama." src="../shared/images/remote-bcfdb58d016a3c86.jpg"/>
+<div class="absolute bottom-1 right-1 bg-secondary text-on-secondary text-[10px] font-label-sm px-1 rounded-sm shadow-sm">
+            Karya 3
+          </div>
+</div>
+<div class="flex-1 min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight mb-0.5">
+            Bengkel Batik
+          </h2>
+<p class="font-body-sm text-[13px] text-on-surface-variant line-clamp-2 mb-1.5 leading-snug">
+            Corak Batik Tradisional • Garisan Ceria • Kompang &amp; Angklung
+          </p>
+<div class="w-full">
+<div class="flex justify-between items-center text-[11px] font-label-sm mb-1">
+<span class="text-on-surface-variant">Kemajuan: 3/6 Karya</span>
+<span class="text-secondary font-bold">50%</span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-high rounded-full overflow-hidden p-0.5 shadow-inner">
+<div class="h-full bg-gradient-to-r from-secondary-container to-secondary rounded-full shadow-sm" style="width: 50%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-2 flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-secondary text-[20px]">palette</span>
+<span class="font-body-sm text-[12px] text-on-surface leading-tight">
+<strong class="text-secondary font-bold">Ganjaran:</strong> Pasu Ukiran Bunga Raya &amp; Gong Emas
+        </span>
+</div>
+<button class="w-full h-14 bg-gradient-to-b from-secondary-container to-secondary text-on-secondary rounded-xl font-label-lg text-label-lg shadow-[0_4px_0_#653e00,0_8px_12px_rgba(133,83,0,0.25)] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[22px]">brush</span>
+<span>Cipta Karya Seni</span>
+</button>
+</div>
+</div>
+<!-- Bottom Floating Sticky Action Deck (Ganjaran Seterusnya & Quick Action) -->
+<div class="mt-6 px-margin-mobile">
+<div class="bg-surface-container-highest/95 backdrop-blur-md rounded-2xl p-space-md shadow-[0_8px_24px_rgba(53,16,0,0.12),inset_0_2px_0_rgba(255,255,255,0.7)] flex flex-col gap-3">
+<!-- Next Big Village Reward Tracker -->
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary flex items-center justify-center shadow-md flex-shrink-0">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between mb-0.5">
+<span class="font-label-sm text-[11px] text-secondary uppercase font-bold tracking-wide">Ganjaran Seterusnya</span>
+<span class="font-label-sm text-[11px] text-primary font-bold">2 Misi Lagi!</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-bold leading-tight truncate">
+            Kostum Pendekar Cilik Rimau
+          </p>
+<!-- Chunky progress -->
+<div class="w-full h-2 bg-surface-container-low rounded-full overflow-hidden mt-1 p-0.5">
+<div class="h-full bg-primary rounded-full" style="width: 75%;"></div>
+</div>
+</div>
+</div>
+<!-- Dual Action Buttons -->
+<div class="grid grid-cols-5 gap-2 pt-1">
+<button class="col-span-2 h-14 bg-surface-container text-on-surface rounded-xl font-label-md text-label-md shadow-[0_4px_0_#ffd0bb] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[20px] text-secondary">map</span>
+<span>Peta Penuh</span>
+</button>
+<button class="col-span-3 h-14 bg-gradient-to-b from-primary to-primary-container text-on-primary rounded-xl font-label-md text-label-md shadow-[0_4px_0_#005236,0_6px_12px_rgba(0,105,71,0.25)] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[22px] animate-pulse">bolt</span>
+<span>Sambung Belajar</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script src="../shared/js/pages/rumah_ilmu_6_zon_pembelajaran_kssr.js"></script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/95 backdrop-blur-xl shadow-[0_-4px_20px_rgba(69,26,3,0.15)]" data-active-classes="text-primary bg-primary-fixed-dim/30 shadow-[0_3px_0_#006947]"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="kampung" href="#"><span class="material-symbols-outlined text-headline-md">cottage</span><span class="font-label-sm text-label-sm mt-0.5">Kampung</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="wira" href="#"><span class="material-symbols-outlined text-headline-md">shield_person</span><span class="font-label-sm text-label-sm mt-0.5">Wira</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="misi" href="#"><span class="material-symbols-outlined text-headline-md">menu_book</span><span class="font-label-sm text-label-sm mt-0.5">Misi</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="sahabat" href="#"><span class="material-symbols-outlined text-headline-md">pets</span><span class="font-label-sm text-label-sm mt-0.5">Sahabat</span></a><a class="flex flex-col items-center justify-center w-14 h-14 rounded-xl text-on-surface-variant transition-all active:scale-95" data-path="ibu-bapa" href="#"><span class="material-symbols-outlined text-headline-md">family_restroom</span><span class="font-label-sm text-label-sm mt-0.5">Ibu Bapa</span></a></div></nav></body></html>
